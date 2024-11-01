@@ -1,0 +1,2136 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TIM - Travel Information Manager 1.5.0\n"
+"POT-Creation-Date: 2024-06-05 10:36-0600\n"
+"PO-Revision-Date: 2024-06-05 10:36-0600\n"
+"Last-Translator: \n"
+"Language-Team: Willy Rios <willy.rios@dotcreek.com>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: public/css\n"
+"X-Poedit-SearchPathExcluded-1: public/img\n"
+"X-Poedit-SearchPathExcluded-2: public/js\n"
+"X-Poedit-SearchPathExcluded-3: public/libs\n"
+"X-Poedit-SearchPathExcluded-4: admin/css\n"
+"X-Poedit-SearchPathExcluded-5: admin/img\n"
+"X-Poedit-SearchPathExcluded-6: admin/js\n"
+"X-Poedit-SearchPathExcluded-7: admin/libs\n"
+
+#: admin/class-tim-travel-information-manager-admin.php:146
+msgid "Please enter a valid subdomain"
+msgstr "Bitte geben Sie eine gültige Subdomain ein"
+
+#: admin/class-tim-travel-information-manager-admin.php:161
+msgid "Please enter a valid Domain Api key"
+msgstr "Bitte geben Sie einen gültigen Domain-Api-Schlüssel ein"
+
+#: admin/class-tim-travel-information-manager-admin.php:175
+msgid "Please enter a valid Company Api key"
+msgstr "Bitte geben Sie einen gültigen Firmen-Api-Schlüssel ein"
+
+#: admin/class-tim-travel-information-manager-admin.php:259
+msgid "Please enter a valid Google map API key"
+msgstr "Bitte geben Sie einen gültigen Google-Karten-API-Schlüssel ein"
+
+#: admin/partials/_booking-options.php:13
+msgid "Booking settings"
+msgstr "Buchungseinstellungen"
+
+#: admin/partials/_booking-options.php:20
+msgid "Delete booking after"
+msgstr "Buchung nach löschen"
+
+#: admin/partials/_booking-options.php:32
+msgid "of user inactivity"
+msgstr "der Inaktivität des Benutzers"
+
+#: admin/partials/_booking-options.php:33
+msgid ""
+"After this time a warning is shown to stating \"Your booking will be deleted "
+"due to inactivity\". The user can continue or cancel the booking"
+msgstr ""
+"Nach dieser Zeit wird eine Warnung angezeigt, die besagt: \"Ihre Buchung "
+"wird aufgrund von Inaktivität gelöscht\". Der Benutzer kann die Buchung "
+"fortsetzen oder stornieren"
+
+#: admin/partials/_booking-options.php:40
+msgid "Secondary price list"
+msgstr "Sekundäre Preisliste"
+
+#: admin/partials/_booking-options.php:50
+#: admin/partials/_booking-options.php:119
+#: admin/partials/_general-options.php:40
+#: admin/partials/_general-options.php:55
+msgid "Enable"
+msgstr "Aktivieren"
+
+#: admin/partials/_booking-options.php:53
+msgid ""
+"Enable the option to activate a secondary price list for marketing & sales "
+"initiatives (i.e. customer segmentation)."
+msgstr ""
+"Aktivieren Sie die Option, eine sekundäre Preisliste für Marketing- und "
+"Vertriebsinitiativen (d. h. Kundensegmentierung) zu aktivieren."
+
+#: admin/partials/_booking-options.php:64
+msgid "Home page only"
+msgstr "Nur Homepage"
+
+#: admin/partials/_booking-options.php:72
+msgid "Always visible"
+msgstr "Immer sichtbar"
+
+#: admin/partials/_booking-options.php:77
+msgid "Custom message"
+msgstr "Individuelle Nachricht"
+
+#: admin/partials/_booking-options.php:79
+msgid "English"
+msgstr "Englisch"
+
+#: admin/partials/_booking-options.php:84
+msgid "Spanish"
+msgstr "Spanisch"
+
+#: admin/partials/_booking-options.php:96
+msgid "Use custom widget"
+msgstr "Verwenden eines benutzerdefinierten Widgets"
+
+#: admin/partials/_booking-options.php:99
+msgid ""
+"Enable this option if you need custom style and position of this message in "
+"the website."
+msgstr ""
+"Aktivieren Sie diese Option, wenn Sie einen benutzerdefinierten Stil und "
+"eine benutzerdefinierte Position dieser Nachricht auf der Website benötigen."
+
+#: admin/partials/_booking-options.php:100
+msgid "Use this short-code"
+msgstr "Verwenden Sie diesen Kurzcode"
+
+#: admin/partials/_booking-options.php:110
+#: public/templates/checkout/checkout-totals.php:96
+msgid "Discount coupon"
+msgstr "Rabatt-Coupon"
+
+#: admin/partials/_booking-options.php:122
+msgid "Enable the discount coupon for bookings"
+msgstr "Aktivieren Sie den Rabattcoupon für Buchungen"
+
+#: admin/partials/_check-availability-options.php:4
+#: admin/partials/_check-availability-options.php:12
+msgid "Sidebar"
+msgstr "Seitenleiste"
+
+#: admin/partials/_check-availability-options.php:5
+#: admin/partials/_check-availability-options.php:13
+msgid "Content"
+msgstr "Inhalt"
+
+#: admin/partials/_check-availability-options.php:22
+msgid "Availability options"
+msgstr "Verfügbarkeitsoptionen"
+
+#: admin/partials/_check-availability-options.php:27
+msgid "Tour check rate form"
+msgstr "Tour-Check-Rate-Formular"
+
+#: admin/partials/_check-availability-options.php:52
+msgid "Transportation check rate form"
+msgstr "Formular für den Transport-Check-Tarif"
+
+#: admin/partials/_credentials.php:14
+msgid "Subdomain"
+msgstr "Bitte geben Sie eine gültige Subdomain ein"
+
+#: admin/partials/_credentials.php:26
+msgid "Domain Api Key"
+msgstr "Domänen-API-Schlüssel"
+
+#: admin/partials/_credentials.php:38
+msgid "Company Api Key"
+msgstr "Bitte geben Sie einen gültigen Firmen-Api-Schlüssel ein"
+
+#: admin/partials/_credentials.php:50
+msgid "Account Api Key"
+msgstr "Account Api-Schlüssel"
+
+#: admin/partials/_general-options.php:28
+#: admin/tim-travel-information-manager-admin-display.php:39
+msgid "General options"
+msgstr "Allgemeine Optionen"
+
+#: admin/partials/_general-options.php:34
+msgid "Cart widget"
+msgstr "Cart-Widget"
+
+#: admin/partials/_general-options.php:47
+msgid "Google map"
+msgstr "Google Map"
+
+#: admin/partials/_general-options.php:59
+msgid "APY key"
+msgstr "APY-Schlüssel"
+
+#: admin/partials/_general-options.php:65
+msgid "More info"
+msgstr "Mehr Info"
+
+#: admin/partials/_general-options.php:73
+msgid "Translation plugin"
+msgstr "Übersetzungs-Plugin"
+
+#: admin/partials/_general-options.php:98
+#, fuzzy
+#| msgid "Translation plugin"
+msgid "Translation settings"
+msgstr "Übersetzungs-Plugin"
+
+#: admin/partials/_notification-options.php:10
+msgid "Email notifications"
+msgstr "E-Mail Benachrichtigungen"
+
+#: admin/partials/_notification-options.php:16
+msgid "Package request"
+msgstr "Paketanfrage"
+
+#: admin/partials/_product-display-options.php:16
+msgid "Product display"
+msgstr "Warenpräsentation"
+
+#: admin/partials/_product-display-options.php:37
+msgid "Disable search"
+msgstr "Suche deaktivieren"
+
+#: admin/partials/_product-display-options.php:45
+msgid "Hide list"
+msgstr "Liste ausblenden"
+
+#: admin/partials/_product-display-options.php:62
+msgid "List"
+msgstr "Liste"
+
+#: admin/partials/_product-display-options.php:69
+#: public/widgets/searchs/tim-hotel-list-search.php:98
+#: public/widgets/searchs/tim-location-list-search.php:51
+#: public/widgets/searchs/tim-package-list-search.php:81
+#: public/widgets/searchs/tim-tour-list-search.php:97
+#: public/widgets/searchs/tim-transportation-list-search.php:90
+msgid "Search"
+msgstr "Suche"
+
+#: admin/partials/_synchronize-api.php:11
+msgid "Synchronize locations"
+msgstr "Standorte synchronisieren"
+
+#: admin/partials/_synchronize-api.php:23
+msgid "Synchronize tours"
+msgstr "Touren synchronisieren"
+
+#: admin/partials/_synchronize-api.php:35
+msgid "Synchronize transportation"
+msgstr "Transport synchronisieren"
+
+#: admin/partials/_synchronize-api.php:47
+#, fuzzy
+#| msgid "Synchronize website"
+msgid "Synchronize hotels"
+msgstr "Webseite synchronisieren"
+
+#: admin/partials/_synchronize-api.php:59
+#, fuzzy
+#| msgid "Synchronize Api"
+msgid "Synchronize packages"
+msgstr "API synchronisieren"
+
+#: admin/partials/_synchronize-api.php:71
+#, fuzzy
+#| msgid "Synchronize Api"
+msgid "Synchronize miscellaneous"
+msgstr "API synchronisieren"
+
+#: admin/partials/_synchronize-api.php:81
+#, fuzzy
+#| msgid "Synchronize Api"
+msgid "Synchronize all"
+msgstr "API synchronisieren"
+
+#: admin/partials/_synchronize-api.php:83
+msgid "It may take some time"
+msgstr "Es kann einige Zeit dauern"
+
+#: admin/partials/_theme-layout-options.php:4
+#: admin/partials/_theme-layout-options.php:53
+msgid "Custom"
+msgstr "Benutzerdefiniert"
+
+#: admin/partials/_theme-layout-options.php:16
+msgid "Theme options"
+msgstr "Themenoptionen"
+
+#: admin/partials/_theme-layout-options.php:21
+msgid "Theme layout"
+msgstr "Es kann einige Zeit dauern"
+
+#: admin/partials/_theme-layout-options.php:54
+msgid "Orange"
+msgstr "Orange"
+
+#: admin/partials/_theme-layout-options.php:55
+msgid "Blue"
+msgstr "Blau"
+
+#: admin/partials/_theme-layout-options.php:64
+msgid "Theme color"
+msgstr "Themenfarbe"
+
+#: admin/tim-travel-information-manager-admin-display.php:13
+msgid "Dismiss this notice"
+msgstr "Ignoriere die Nachricht"
+
+#: admin/tim-travel-information-manager-admin-display.php:36
+msgid "Credentials"
+msgstr "Referenzen"
+
+#: admin/tim-travel-information-manager-admin-display.php:42
+msgid "Synchronize Api"
+msgstr "API synchronisieren"
+
+#: admin/tim-travel-information-manager-admin-display.php:75
+msgid "Save changes"
+msgstr "Änderungen speichern"
+
+#: public/includes/class-tim-travel-information-manager-data.php:140
+#: public/layouts/travelo/packages/detail.php:293
+#: public/templates/cart/modals/tim-cart-item-hotel.php:88
+#: public/templates/cart/modals/tim-cart-item-tour.php:71
+#: public/templates/cart/modals/tim-cart-item-transportation.php:69
+#: public/widgets/availability/tim-hotel-check-rate.php:57
+#: public/widgets/availability/tim-package-request.php:23
+#: public/widgets/availability/tim-tour-check-rate.php:28
+#: public/widgets/availability/tim-tour-check-rate.php:99
+#: public/widgets/availability/tim-transportation-check-rate.php:28
+#: public/widgets/availability/tim-transportation-check-rate.php:92
+#: public/widgets/searchs/tim-transportation-search.php:138
+msgid "Adults"
+msgstr "Erwachsene"
+
+#: public/includes/class-tim-travel-information-manager-data.php:140
+msgid "Adult"
+msgstr "Erwachsene"
+
+#: public/includes/class-tim-travel-information-manager-data.php:145
+#: public/layouts/travelo/packages/detail.php:296
+#: public/templates/cart/modals/tim-cart-item-hotel.php:91
+#: public/templates/cart/modals/tim-cart-item-tour.php:82
+#: public/templates/cart/modals/tim-cart-item-transportation.php:80
+#: public/widgets/availability/tim-hotel-check-rate.php:60
+#: public/widgets/availability/tim-package-request.php:36
+#: public/widgets/availability/tim-tour-check-rate.php:39
+#: public/widgets/availability/tim-tour-check-rate.php:110
+#: public/widgets/availability/tim-transportation-check-rate.php:39
+#: public/widgets/availability/tim-transportation-check-rate.php:103
+#: public/widgets/searchs/tim-transportation-search.php:148
+msgid "Children"
+msgstr "Kinder"
+
+#: public/includes/class-tim-travel-information-manager-data.php:145
+#: public/templates/cart/modals/tim-cart-item-tour.php:130
+#: public/templates/cart/modals/tim-cart-item-tour.php:141
+#: public/templates/cart/modals/tim-cart-item-tour.php:340
+#: public/widgets/availability/tim-package-request.php:108
+#: public/widgets/availability/tim-tour-check-rate.php:162
+msgid "Child"
+msgstr "Kind"
+
+#: public/includes/class-tim-travel-information-manager-data.php:151
+#: public/templates/cart/modals/tim-cart-item-tour.php:94
+#: public/templates/cart/modals/tim-cart-item-transportation.php:92
+#: public/widgets/availability/tim-package-request.php:50
+#: public/widgets/availability/tim-tour-check-rate.php:51
+#: public/widgets/availability/tim-tour-check-rate.php:122
+#: public/widgets/availability/tim-transportation-check-rate.php:51
+#: public/widgets/availability/tim-transportation-check-rate.php:115
+#: public/widgets/searchs/tim-transportation-search.php:158
+msgid "Infants"
+msgstr "Kleinkinder"
+
+#: public/includes/class-tim-travel-information-manager-data.php:151
+msgid "Infant"
+msgstr "Säugling"
+
+#: public/includes/class-tim-travel-information-manager-data.php:157
+msgid "Seniors"
+msgstr "Senioren"
+
+#: public/includes/class-tim-travel-information-manager-data.php:157
+msgid "Senior"
+msgstr "Senior"
+
+#: public/includes/class-tim-travel-information-manager-data.php:508
+#: public/widgets/availability/tim-tour-check-rate.php:154
+#: public/widgets/availability/tim-transportation-check-rate.php:147
+#: public/widgets/searchs/tim-transportation-search.php:196
+msgid "hours"
+msgstr "Std"
+
+#: public/layouts/argox/hotels/detail.php:16
+#: public/layouts/argox/locations/detail.php:12
+#: public/layouts/argox/packages/detail.php:8
+#: public/layouts/argox/tours/detail.php:9
+#: public/layouts/argox/transportations/detail.php:8
+#: public/layouts/travelo/hotels/detail.php:90
+#: public/layouts/travelo/locations/detail.php:89
+#: public/layouts/travelo/tours/detail.php:91
+#: public/templates/hotels/modals/tim-hotel-detail-modal.php:117
+#: public/templates/tours/modals/tim-tour-detail-modal.php:48
+#: public/templates/transportations/modals/tim-transportation-detail-modal.php:67
+msgid "Detail"
+msgstr "Details"
+
+#: public/layouts/argox/hotels/detail.php:21
+#: public/layouts/argox/locations/detail.php:15
+#: public/layouts/argox/locations/detail.php:102
+#: public/layouts/argox/packages/detail.php:14
+#: public/layouts/argox/packages/detail.php:263
+#: public/layouts/argox/tours/detail.php:22
+#: public/layouts/argox/tours/detail.php:188
+#: public/layouts/argox/transportations/detail.php:14
+#: public/layouts/argox/transportations/detail.php:202
+#: public/layouts/travelo/hotels/detail.php:96
+#: public/layouts/travelo/hotels/detail.php:230
+#: public/layouts/travelo/locations/detail.php:95
+#: public/layouts/travelo/locations/detail.php:127
+#: public/layouts/travelo/packages/detail.php:88
+#: public/layouts/travelo/packages/detail.php:236
+#: public/layouts/travelo/tours/detail.php:97
+#: public/layouts/travelo/tours/detail.php:175
+#: public/templates/hotels/modals/tim-hotel-detail-modal.php:133
+#: public/templates/hotels/modals/tim-hotel-detail-modal.php:295
+#: public/templates/tours/modals/tim-tour-detail-modal.php:60
+#: public/templates/tours/modals/tim-tour-detail-modal.php:191
+#: public/templates/transportations/modals/tim-transportation-detail-modal.php:73
+msgid "Map"
+msgstr "Karte"
+
+#: public/layouts/argox/hotels/detail.php:26
+msgid "Rates"
+msgstr "Preise"
+
+#: public/layouts/argox/hotels/detail.php:61
+#: public/layouts/argox/packages/detail.php:49
+#: public/layouts/travelo/hotels/detail.php:58
+#: public/layouts/travelo/locations/detail.php:37
+#: public/layouts/travelo/tours/detail.php:45
+#: public/templates/hotels/modals/tim-hotel-detail-modal.php:174
+msgid "Location"
+msgstr "Ort"
+
+#: public/layouts/argox/hotels/detail.php:71
+#: public/layouts/argox/locations/detail.php:62
+#: public/layouts/argox/packages/detail.php:72
+#: public/layouts/travelo/hotels/detail.php:185
+#: public/layouts/travelo/locations/detail.php:46
+#: public/layouts/travelo/packages/detail.php:175
+#: public/templates/hotels/modals/tim-hotel-detail-modal.php:184
+msgid "Category"
+msgstr "Kategorie"
+
+#: public/layouts/argox/hotels/detail.php:81
+#: public/layouts/travelo/hotels/detail.php:67
+#: public/templates/hotels/modals/tim-hotel-detail-modal.php:194
+msgid "Entrance"
+msgstr "Eingang"
+
+#: public/layouts/argox/hotels/detail.php:85
+#: public/layouts/travelo/hotels/detail.php:71
+#: public/templates/cart/modals/tim-cart-item-hotel.php:46
+#: public/templates/cart/products/hotel.php:3
+#: public/templates/hotels/modals/tim-hotel-detail-modal.php:198
+#: public/widgets/availability/tim-hotel-check-rate.php:24
+msgid "Check-in"
+msgstr "Einchecken"
+
+#: public/layouts/argox/hotels/detail.php:86
+#: public/layouts/travelo/hotels/detail.php:72
+#: public/templates/cart/modals/tim-cart-item-hotel.php:51
+#: public/templates/cart/products/hotel.php:9
+#: public/templates/hotels/modals/tim-hotel-detail-modal.php:199
+#: public/widgets/availability/tim-hotel-check-rate.php:29
+msgid "Check-out"
+msgstr "Auschecken"
+
+#: public/layouts/argox/hotels/detail.php:94
+msgid "Price per night"
+msgstr "Preis pro Nacht"
+
+#: public/layouts/argox/hotels/detail.php:99
+#: public/layouts/argox/hotels/list.php:83
+msgid "Double occupancy"
+msgstr "Doppelbelegung"
+
+#: public/layouts/argox/hotels/detail.php:107
+#: public/layouts/argox/packages/detail.php:94
+#: public/layouts/argox/tours/detail.php:104
+#: public/layouts/argox/transportations/detail.php:112
+#: public/layouts/travelo/hotels/detail.php:89
+#: public/layouts/travelo/locations/detail.php:88
+#: public/layouts/travelo/packages/detail.php:81
+#: public/layouts/travelo/tours/detail.php:90
+#: public/templates/cart/modals/tim-cart-item-tour.php:335
+#: public/templates/cart/modals/tim-cart-item-transportation.php:279
+#: public/widgets/availability/tim-package-request.php:122
+#: public/widgets/availability/tim-tour-check-rate.php:156
+#: public/widgets/availability/tim-transportation-check-rate.php:149
+#: public/widgets/searchs/tim-transportation-search.php:199
+msgid "Book"
+msgstr "Buch"
+
+#: public/layouts/argox/hotels/detail.php:112
+#: public/templates/hotels/modals/tim-hotel-detail-modal.php:207
+msgid "Hotel Overview"
+msgstr "Hotelübersicht"
+
+#: public/layouts/argox/hotels/detail.php:166
+msgid "Hotel rooms"
+msgstr "Hotelzimmer"
+
+#: public/layouts/argox/hotels/detail.php:190
+#: public/templates/cart/modals/tim-cart-item-hotel.php:107
+#: public/templates/hotels/hotel-rooms/modals/tim-hotel-room-detail-modal.php:48
+#: public/templates/hotels/modals/tim-hotel-detail-modal.php:251
+#: public/widgets/availability/tim-hotel-check-rate.php:76
+msgid "Wi-fi"
+msgstr "W-lan"
+
+#: public/layouts/argox/hotels/detail.php:193
+#: public/templates/cart/modals/tim-cart-item-hotel.php:98
+#: public/templates/hotels/hotel-rooms/modals/tim-hotel-room-detail-modal.php:51
+#: public/templates/hotels/modals/tim-hotel-detail-modal.php:254
+#: public/widgets/availability/tim-hotel-check-rate.php:67
+msgid "Not-smoking"
+msgstr "Nicht rauchen"
+
+#: public/layouts/argox/hotels/detail.php:243
+#: public/templates/hotels/hotel-rooms/modals/tim-hotel-room-detail-modal.php:101
+msgid "Occupancy"
+msgstr "Belegung"
+
+#: public/layouts/argox/hotels/detail.php:246
+#: public/layouts/travelo/hotels/detail.php:125
+#: public/layouts/travelo/hotels/detail.php:148
+#: public/templates/hotels/hotel-rooms/modals/tim-hotel-room-detail-modal.php:104
+msgid "Maximum"
+msgstr "Maximal"
+
+#: public/layouts/argox/hotels/detail.php:252
+#: public/templates/hotels/hotel-rooms/modals/tim-hotel-room-detail-modal.php:110
+msgid "Room size"
+msgstr "Raumgröße"
+
+#: public/layouts/argox/hotels/detail.php:264
+#: public/layouts/argox/hotels/detail.php:299
+#: public/layouts/travelo/hotels/detail.php:202
+#: public/templates/hotels/hotel-rooms/modals/tim-hotel-room-detail-modal.php:122
+#: public/templates/hotels/modals/tim-hotel-detail-modal.php:260
+msgid "Amenities"
+msgstr "Ausstattung"
+
+#: public/layouts/argox/hotels/detail.php:341
+#: public/layouts/argox/packages/detail.php:300
+#: public/layouts/argox/tours/detail.php:231
+#: public/layouts/argox/transportations/detail.php:241
+#: public/layouts/travelo/hotels/detail.php:261
+#: public/layouts/travelo/packages/detail.php:314
+#: public/layouts/travelo/tours/detail.php:219
+msgid "Notes"
+msgstr "Anmerkungen"
+
+#: public/layouts/argox/hotels/detail.php:377
+#: public/layouts/travelo/hotels/detail.php:298
+msgid "Related hotels"
+msgstr "Verwandte Hotels"
+
+#: public/layouts/argox/hotels/list.php:32
+#: public/layouts/argox/packages/list.php:32
+#: public/layouts/argox/tours/list.php:32
+#: public/layouts/argox/transportations/list.php:32
+#: public/layouts/travelo/hotels/list.php:27
+#: public/layouts/travelo/packages/list.php:27
+#: public/layouts/travelo/tours/list.php:27
+msgid "Featured"
+msgstr "Empfohlen"
+
+#: public/layouts/argox/hotels/list.php:81
+#: public/layouts/travelo/hotels/detail.php:49
+#: public/layouts/travelo/hotels/list.php:72
+msgid "per night"
+msgstr "pro Nacht"
+
+#: public/layouts/argox/hotels/list.php:92
+#: public/layouts/travelo/hotels/list.php:77
+msgid "View hotel"
+msgstr "Hotel ansehen"
+
+#: public/layouts/argox/locations/detail.php:18
+#: public/layouts/argox/locations/detail.php:122
+#: public/layouts/argox/packages/detail.php:11
+#: public/layouts/argox/packages/detail.php:255
+#: public/layouts/argox/tours/detail.php:15
+#: public/layouts/argox/tours/detail.php:179
+#: public/layouts/argox/transportations/detail.php:11
+#: public/layouts/argox/transportations/detail.php:193
+#: public/layouts/travelo/hotels/detail.php:93
+#: public/layouts/travelo/hotels/detail.php:221
+#: public/layouts/travelo/locations/detail.php:92
+#: public/layouts/travelo/locations/detail.php:118
+#: public/layouts/travelo/packages/detail.php:85
+#: public/layouts/travelo/packages/detail.php:228
+#: public/layouts/travelo/tours/detail.php:94
+#: public/layouts/travelo/tours/detail.php:166
+#: public/templates/hotels/modals/tim-hotel-detail-modal.php:126
+#: public/templates/hotels/modals/tim-hotel-detail-modal.php:283
+#: public/templates/tours/modals/tim-tour-detail-modal.php:54
+#: public/templates/tours/modals/tim-tour-detail-modal.php:179
+#: public/templates/transportations/modals/tim-transportation-detail-modal.php:70
+msgid "Video"
+msgstr "Video"
+
+#: public/layouts/argox/locations/detail.php:21
+#: public/layouts/argox/locations/detail.php:138
+#: public/layouts/travelo/locations/detail.php:98
+#: public/layouts/travelo/locations/detail.php:150
+msgid "Hotels"
+msgstr "Hotels"
+
+#: public/layouts/argox/locations/detail.php:24
+#: public/layouts/travelo/locations/detail.php:101
+msgid "Tours"
+msgstr "Touren"
+
+#: public/layouts/argox/locations/detail.php:50
+#: public/layouts/argox/transportations/detail.php:123
+msgid "Description"
+msgstr "Beschreibung"
+
+#: public/layouts/argox/locations/detail.php:79
+#: public/layouts/argox/locations/list.php:51
+#: public/layouts/travelo/locations/detail.php:63
+#: public/layouts/travelo/locations/list.php:42
+msgid "Highlights"
+msgstr "Höhepunkte"
+
+#: public/layouts/argox/locations/detail.php:156
+#: public/layouts/travelo/locations/detail.php:168
+msgid "Tours and activities"
+msgstr "Touren und Aktivitäten"
+
+#: public/layouts/argox/locations/list.php:67
+#: public/layouts/travelo/locations/list.php:53
+msgid "View destination"
+msgstr "Ziel anzeigen"
+
+#: public/layouts/argox/packages/detail.php:53
+#: public/layouts/argox/packages/detail.php:274
+#: public/layouts/argox/packages/list.php:66
+#: public/layouts/travelo/packages/detail.php:56
+#: public/layouts/travelo/packages/list.php:55
+#: public/templates/cart/modals/tim-cart-item-tour.php:332
+#: public/templates/cart/modals/tim-cart-item-transportation.php:276
+#: public/widgets/availability/tim-package-request.php:119
+#: public/widgets/availability/tim-tour-check-rate.php:152
+#: public/widgets/availability/tim-transportation-check-rate.php:145
+msgid "Departure"
+msgstr "Beginn"
+
+#: public/layouts/argox/packages/detail.php:54
+#: public/layouts/argox/packages/detail.php:275
+#: public/layouts/argox/packages/list.php:69
+#: public/layouts/travelo/packages/detail.php:65
+#: public/layouts/travelo/packages/list.php:56
+msgid "Arrival"
+msgstr "Ende"
+
+#: public/layouts/argox/packages/detail.php:62
+#: public/layouts/argox/packages/list.php:79
+#: public/layouts/argox/tours/detail.php:81
+#: public/layouts/argox/transportations/detail.php:90
+#: public/layouts/travelo/packages/detail.php:47
+#: public/layouts/travelo/tours/detail.php:74
+#: public/templates/cart/modals/tim-cart-item-tour.php:162
+#: public/templates/cart/modals/tim-cart-item-tour.php:333
+#: public/templates/cart/modals/tim-cart-item-transportation.php:112
+#: public/templates/cart/modals/tim-cart-item-transportation.php:277
+#: public/templates/tours/modals/tim-tour-detail-modal.php:120
+#: public/templates/transportations/modals/tim-transportation-detail-modal.php:124
+#: public/widgets/availability/tim-package-request.php:120
+#: public/widgets/availability/tim-tour-check-rate.php:153
+#: public/widgets/availability/tim-transportation-check-rate.php:146
+#: public/widgets/searchs/tim-transportation-search.php:195
+msgid "Duration"
+msgstr "Dauer"
+
+#: public/layouts/argox/packages/detail.php:65
+#: public/layouts/argox/packages/detail.php:271
+#: public/layouts/argox/packages/list.php:81
+#: public/layouts/travelo/packages/detail.php:50
+#: public/layouts/travelo/packages/detail.php:247
+#: public/layouts/travelo/packages/list.php:54
+msgid "days"
+msgstr "Tage"
+
+#: public/layouts/argox/packages/detail.php:65
+#: public/layouts/argox/packages/detail.php:271
+#: public/layouts/argox/packages/list.php:81
+#: public/layouts/travelo/packages/detail.php:50
+#: public/layouts/travelo/packages/detail.php:247
+#: public/layouts/travelo/packages/list.php:54
+msgid "nights"
+msgstr "Nächte"
+
+#: public/layouts/argox/packages/detail.php:82
+#: public/layouts/travelo/hotels/detail.php:127
+#: public/layouts/travelo/hotels/detail.php:158
+#: public/templates/cart/modals/tim-cart-item-tour.php:334
+#: public/templates/cart/modals/tim-cart-item-transportation.php:278
+#: public/templates/my-account/tim-list-orders.php:17
+#: public/templates/my-account/tim-list-orders.php:50
+#: public/widgets/availability/tim-package-request.php:121
+#: public/widgets/availability/tim-tour-check-rate.php:155
+#: public/widgets/availability/tim-transportation-check-rate.php:148
+#: public/widgets/searchs/tim-transportation-search.php:198
+msgid "Price"
+msgstr "Preis"
+
+#: public/layouts/argox/packages/detail.php:86
+#: public/layouts/travelo/packages/detail.php:40
+#: public/layouts/travelo/packages/list.php:62
+#: public/layouts/travelo/tours/detail.php:38
+#: public/layouts/travelo/tours/list.php:68
+msgid "per person"
+msgstr "pro Person"
+
+#: public/layouts/argox/packages/detail.php:100
+#: public/layouts/travelo/packages/detail.php:82
+msgid "Itinerary"
+msgstr "Route"
+
+#: public/layouts/argox/packages/detail.php:108
+#: public/layouts/argox/packages/detail.php:116
+#: public/layouts/travelo/packages/detail.php:103
+#: public/layouts/travelo/packages/detail.php:111
+msgid "Day"
+msgstr "Tag"
+
+#: public/layouts/argox/packages/detail.php:149
+#: public/layouts/travelo/packages/detail.php:125
+msgid "Hotels included"
+msgstr "Hotels inklusive"
+
+#: public/layouts/argox/packages/detail.php:176
+#: public/layouts/travelo/packages/detail.php:144
+msgid "Tours included"
+msgstr "Touren inklusive"
+
+#: public/layouts/argox/packages/detail.php:200
+#: public/layouts/travelo/packages/detail.php:160
+msgid "Meals included"
+msgstr "Mahlzeiten inbegriffen"
+
+#: public/layouts/argox/packages/detail.php:217
+#: public/layouts/argox/tours/detail.php:141
+#: public/layouts/argox/transportations/detail.php:155
+#: public/layouts/travelo/packages/detail.php:192
+#: public/layouts/travelo/tours/detail.php:113
+#: public/templates/hotels/modals/tim-hotel-detail-modal.php:214
+#: public/templates/tours/modals/tim-tour-detail-modal.php:139
+#: public/templates/transportations/modals/tim-transportation-detail-modal.php:133
+msgid "Included"
+msgstr "Inkludierte Leistungen"
+
+#: public/layouts/argox/packages/detail.php:235
+#: public/layouts/argox/tours/detail.php:159
+#: public/layouts/argox/transportations/detail.php:173
+#: public/layouts/travelo/packages/detail.php:209
+#: public/layouts/travelo/tours/detail.php:130
+#: public/templates/tours/modals/tim-tour-detail-modal.php:157
+#: public/templates/transportations/modals/tim-transportation-detail-modal.php:150
+msgid "Things to bring"
+msgstr "Packliste"
+
+#: public/layouts/argox/packages/detail.php:297
+#: public/layouts/argox/tours/detail.php:227
+#: public/layouts/argox/transportations/detail.php:237
+#: public/layouts/travelo/hotels/detail.php:259
+#: public/layouts/travelo/packages/detail.php:310
+#: public/layouts/travelo/tours/detail.php:215
+msgid "Additional info"
+msgstr "Weitere Informationen"
+
+#: public/layouts/argox/packages/detail.php:302
+#, fuzzy
+#| msgid "Children rate"
+msgid "Children age"
+msgstr "Kindertarif"
+
+#: public/layouts/argox/packages/detail.php:302
+#: public/layouts/travelo/hotels/detail.php:264
+msgid "years old"
+msgstr "Jahre alt"
+
+#: public/layouts/argox/packages/detail.php:303
+#, fuzzy
+#| msgid "Min pax required"
+msgid "Minimum persons required"
+msgstr "Mindestteilnehmerzahl erforderlich"
+
+#: public/layouts/argox/packages/detail.php:321
+#: public/layouts/argox/tours/detail.php:245
+#: public/layouts/argox/transportations/detail.php:255
+#: public/layouts/travelo/hotels/detail.php:281
+#: public/layouts/travelo/packages/detail.php:328
+#: public/layouts/travelo/tours/detail.php:233
+msgid "Policies"
+msgstr "Richtlinien"
+
+#: public/layouts/argox/packages/detail.php:342
+#: public/layouts/travelo/packages/detail.php:348
+msgid "Related packages"
+msgstr "Verwandte Pakete"
+
+#: public/layouts/argox/packages/list.php:86
+#: public/layouts/argox/tours/list.php:75
+#: public/layouts/argox/transportations/list.php:97
+msgid "p/p"
+msgstr "p/p"
+
+#: public/layouts/argox/packages/list.php:90
+#: public/layouts/travelo/packages/list.php:65
+msgid "View package"
+msgstr "Paket ansehen"
+
+#: public/layouts/argox/tours/detail.php:26
+#: public/layouts/argox/transportations/detail.php:17
+#: public/layouts/travelo/hotels/detail.php:99
+#: public/layouts/travelo/tours/detail.php:100
+msgid "Reviews"
+msgstr "Bewertungen"
+
+#: public/layouts/argox/tours/detail.php:61
+#: public/templates/tours/modals/tim-tour-detail-modal.php:100
+msgid "Destination"
+msgstr "Ziel"
+
+#: public/layouts/argox/tours/detail.php:71
+#: public/layouts/argox/transportations/detail.php:71
+#: public/layouts/travelo/tours/detail.php:54
+#: public/templates/tours/modals/tim-tour-detail-modal.php:110
+#: public/templates/transportations/modals/tim-transportation-detail-modal.php:105
+msgid "Schedules"
+msgstr "Abfahrtszeit"
+
+#: public/layouts/argox/tours/detail.php:84
+msgid "approx"
+msgstr "ca"
+
+#: public/layouts/argox/tours/detail.php:92
+#: public/layouts/argox/transportations/detail.php:101
+msgid "Starting from"
+msgstr "Ab"
+
+#: public/layouts/argox/tours/detail.php:96
+msgid "Per person"
+msgstr "pro Person"
+
+#: public/layouts/argox/tours/detail.php:116
+msgid "Tour overview"
+msgstr "Tourenübersicht"
+
+#: public/layouts/argox/tours/detail.php:267
+#: public/layouts/travelo/tours/detail.php:253
+msgid "Related tours"
+msgstr "Verwandte Touren"
+
+#: public/layouts/argox/tours/list.php:70
+#: public/layouts/argox/transportations/list.php:83
+#: public/templates/cart/modals/tim-cart-item-tour.php:161
+msgid "Departures"
+msgstr "Abfahrt"
+
+#: public/layouts/argox/tours/list.php:79
+#: public/layouts/travelo/tours/list.php:71
+msgid "View tour"
+msgstr "Tour ansehen"
+
+#: public/layouts/argox/transportations/detail.php:51
+#: public/widgets/searchs/tim-transportation-list-search.php:62
+msgid "Departing from"
+msgstr "Von"
+
+#: public/layouts/argox/transportations/detail.php:61
+#: public/widgets/searchs/tim-transportation-list-search.php:73
+msgid "Arriving to"
+msgstr "Nach"
+
+#: public/layouts/argox/transportations/detail.php:76
+#: public/layouts/argox/transportations/list.php:86
+#: public/widgets/searchs/tim-transportation-search.php:193
+msgid "Open"
+msgstr "Offen"
+
+#: public/layouts/argox/transportations/detail.php:93
+#: public/layouts/travelo/tours/detail.php:77
+#: public/templates/tours/modals/tim-tour-detail-modal.php:123
+#: public/templates/transportations/modals/tim-transportation-detail-modal.php:127
+msgid "approx."
+msgstr "ca."
+
+#: public/layouts/argox/transportations/detail.php:130
+#: public/widgets/searchs/tim-transportation-list-search.php:47
+msgid "Service type"
+msgstr "Servicetyp"
+
+#: public/layouts/argox/transportations/detail.php:206
+#: public/layouts/argox/transportations/list.php:65
+#: public/widgets/searchs/tim-transportation-search.php:96
+msgid "From"
+msgstr "Von"
+
+#: public/layouts/argox/transportations/detail.php:206
+#: public/widgets/searchs/tim-transportation-search.php:109
+msgid "To"
+msgstr "Nach"
+
+#: public/layouts/argox/transportations/detail.php:277
+msgid "Related transportations"
+msgstr "Zugehörige Transporte"
+
+#: public/layouts/argox/transportations/list.php:65
+msgid "to"
+msgstr "nach"
+
+#: public/layouts/argox/transportations/list.php:101
+#: public/templates/cart/modals/tim-cart-item-hotel.php:92
+#: public/widgets/availability/tim-hotel-check-rate.php:61
+#: public/widgets/searchs/tim-transportation-search.php:200
+msgid "Details"
+msgstr "Details"
+
+#: public/layouts/travelo/hotels/detail.php:50
+#: public/layouts/travelo/hotels/list.php:73
+msgid "double occupancy"
+msgstr "Doppelbelegung"
+
+#: public/layouts/travelo/hotels/detail.php:78
+#: public/templates/cart/modals/tim-cart-item-hotel.php:59
+#: public/templates/cart/modals/tim-cart-item-tour.php:306
+#: public/templates/cart/modals/tim-cart-item-transportation.php:251
+#: public/widgets/availability/tim-hotel-check-rate.php:37
+#: public/widgets/searchs/tim-transportation-search.php:176
+msgid "Check rates"
+msgstr "Auswählen"
+
+#: public/layouts/travelo/hotels/detail.php:106
+#: public/layouts/travelo/locations/detail.php:110
+#: public/layouts/travelo/tours/detail.php:108
+msgid "Information"
+msgstr "Information"
+
+#: public/layouts/travelo/hotels/detail.php:113
+msgid "Check rates at"
+msgstr "Überprüfen Sie die Preise bei"
+
+#: public/layouts/travelo/hotels/detail.php:124
+#: public/layouts/travelo/hotels/detail.php:135
+#: public/templates/cart/modals/tim-cart-item-hotel.php:103
+#: public/widgets/availability/tim-hotel-check-rate.php:72
+msgid "Room type"
+msgstr "Zimmertyp"
+
+#: public/layouts/travelo/hotels/detail.php:126
+#: public/layouts/travelo/hotels/detail.php:151
+msgid "Room details"
+msgstr "Room details"
+
+#: public/layouts/travelo/hotels/detail.php:156
+msgid "See all room amenities"
+msgstr "Alle Zimmerausstattung ansehen"
+
+#: public/layouts/travelo/hotels/detail.php:165
+msgid "Add to order"
+msgstr "Zur Bestellung hinzufügen"
+
+#: public/layouts/travelo/hotels/detail.php:170
+msgid "Enter dates"
+msgstr "Daten eingeben"
+
+#: public/layouts/travelo/hotels/detail.php:264
+msgid "Children rate"
+msgstr "Kindertarif"
+
+#: public/layouts/travelo/hotels/detail.php:264
+msgid "Between"
+msgstr "Zwischen"
+
+#: public/layouts/travelo/packages/detail.php:255
+msgid "Available Dates & Prices"
+msgstr "Verfügbare Daten & Preise"
+
+#: public/layouts/travelo/packages/detail.php:259
+#: public/layouts/travelo/packages/detail.php:271
+msgid "Availability"
+msgstr "Verfügbarkeit"
+
+#: public/layouts/travelo/packages/detail.php:260
+#: public/layouts/travelo/packages/detail.php:272
+msgid "Season"
+msgstr "Jahreszeit"
+
+#: public/layouts/travelo/packages/detail.php:261
+#: public/layouts/travelo/packages/detail.php:273
+msgid "Dates"
+msgstr "Termine"
+
+#: public/layouts/travelo/packages/detail.php:262
+#: public/layouts/travelo/packages/detail.php:274
+msgid "Price per person"
+msgstr "Preis pro Person"
+
+#: public/layouts/travelo/packages/detail.php:275
+msgid "Check price"
+msgstr "Preis überprüfen"
+
+#: public/layouts/travelo/packages/detail.php:287
+msgid "BOOKING FORM"
+msgstr "BUCHUNGSFORMULAR"
+
+#: public/layouts/travelo/packages/detail.php:290
+#: public/widgets/availability/tim-package-request.php:15
+msgid "Arrival date"
+msgstr "Ankunftsdatum"
+
+#: public/layouts/travelo/packages/detail.php:299
+msgid "Add to cart"
+msgstr "In den Warenkorb legen"
+
+#: public/layouts/travelo/tours/detail.php:147
+msgid "Tags"
+msgstr "Stichworte"
+
+#: public/layouts/travelo/tours/detail.php:200
+msgid "Booking form"
+msgstr "Buchungsformular"
+
+#: public/pages/tim-cart.php:12 public/pages/tim-order.php:33
+#: public/templates/order/tim-order-detail.php:28
+msgid "Order detail"
+msgstr "Bestelldetails"
+
+#: public/pages/tim-checkout.php:19
+msgid "Order confirmation"
+msgstr "Bestellbestätigung"
+
+#: public/pages/tim-checkout.php:26
+#: public/templates/checkout/checkout-detail.php:414
+msgid "Continue shopping"
+msgstr "Weiter stöbern"
+
+#: public/pages/tim-my-account.php:12
+msgid "My Account"
+msgstr "Mein Konto"
+
+#: public/pages/tim-order.php:39
+#: public/templates/my-account/tim-my-account.php:22
+#: public/widgets/cart/tim-cart.php:198
+msgid "View orders"
+msgstr "Bestellungen ansehen"
+
+#: public/pages/tim-verify-order.php:12
+#: public/templates/order/tim-verify-order-form.php:21
+#: public/widgets/cart/tim-cart.php:209
+msgid "Verify order"
+msgstr "Bestellung bestätigen"
+
+#: public/templates/cart/modals/tim-booking-inactivity.php:9
+msgid "Your booking will be deleted due to inactivity"
+msgstr "Ihre Buchung wird aufgrund von Inaktivität gelöscht"
+
+#: public/templates/cart/modals/tim-booking-inactivity.php:14
+msgid "Continue with booking"
+msgstr "Weiter mit Buchung"
+
+#: public/templates/cart/modals/tim-booking-inactivity.php:20
+msgid "Cancel booking"
+msgstr "Buchung stornieren"
+
+#: public/templates/cart/modals/tim-cart-item-hotel.php:69
+#: public/widgets/availability/tim-hotel-check-rate.php:47
+msgid "Please select the check-in and check-out dates"
+msgstr "Bitte wählen Sie die An- und Abreisedaten ausout"
+
+#: public/templates/cart/modals/tim-cart-item-hotel.php:87
+#: public/widgets/availability/tim-hotel-check-rate.php:56
+msgid "Accommodations"
+msgstr "Unterkünfte"
+
+#: public/templates/cart/modals/tim-cart-item-hotel.php:89
+#: public/widgets/availability/tim-hotel-check-rate.php:58
+msgid "Book now"
+msgstr "Jetzt buchen"
+
+#: public/templates/cart/modals/tim-cart-item-hotel.php:90
+#: public/templates/cart/modals/tim-cart-item-tour.php:331
+#: public/templates/cart/modals/tim-cart-item-transportation.php:275
+#: public/widgets/availability/tim-hotel-check-rate.php:59
+#: public/widgets/availability/tim-tour-check-rate.php:151
+#: public/widgets/availability/tim-transportation-check-rate.php:144
+msgid "Update order"
+msgstr "Aktualisieren"
+
+#: public/templates/cart/modals/tim-cart-item-hotel.php:93
+#: public/widgets/availability/tim-hotel-check-rate.php:62
+msgid "Enter check-in date"
+msgstr "Check-in-Datum eingeben"
+
+#: public/templates/cart/modals/tim-cart-item-hotel.php:94
+#: public/widgets/availability/tim-hotel-check-rate.php:63
+msgid "Please select at least one room"
+msgstr "Bitte wählen Sie mindestens ein Zimmer aus"
+
+#: public/templates/cart/modals/tim-cart-item-hotel.php:95
+#: public/widgets/availability/tim-hotel-check-rate.php:64
+msgid "Left"
+msgstr "Links"
+
+#: public/templates/cart/modals/tim-cart-item-hotel.php:96
+#: public/widgets/availability/tim-hotel-check-rate.php:65
+msgid "Max"
+msgstr "Max"
+
+#: public/templates/cart/modals/tim-cart-item-hotel.php:97
+#: public/templates/cart/modals/tim-cart-item-tour.php:344
+#: public/templates/cart/modals/tim-cart-item-transportation.php:286
+#: public/widgets/availability/tim-hotel-check-rate.php:66
+#: public/widgets/availability/tim-package-request.php:130
+#: public/widgets/availability/tim-tour-check-rate.php:166
+#: public/widgets/availability/tim-transportation-check-rate.php:157
+#: public/widgets/searchs/tim-transportation-search.php:202
+msgid "Not available"
+msgstr "Nicht verfügbar"
+
+#: public/templates/cart/modals/tim-cart-item-hotel.php:99
+#: public/widgets/availability/tim-hotel-check-rate.php:68
+msgid "Only"
+msgstr "Nur"
+
+#: public/templates/cart/modals/tim-cart-item-hotel.php:100
+#: public/widgets/availability/tim-hotel-check-rate.php:69
+msgid "Price from"
+msgstr "Preis von"
+
+#: public/templates/cart/modals/tim-cart-item-hotel.php:101
+#: public/templates/cart/products/hotel.php:21
+#: public/templates/hotels/modals/tim-hotel-detail-modal.php:120
+#: public/widgets/availability/tim-hotel-check-rate.php:70
+msgid "Rooms"
+msgstr "Räume"
+
+#: public/templates/cart/modals/tim-cart-item-hotel.php:102
+#: public/widgets/availability/tim-hotel-check-rate.php:71
+msgid "Room nights"
+msgstr "Zimmerübernachtungen"
+
+#: public/templates/cart/modals/tim-cart-item-hotel.php:104
+#: public/templates/cart/modals/tim-cart-item-tour.php:336
+#: public/templates/cart/modals/tim-cart-item-transportation.php:280
+#: public/templates/cart/tim-cart-detail.php:182
+#: public/templates/checkout/checkout-totals.php:60
+#: public/templates/order/payment-details.php:117
+#: public/widgets/availability/tim-hotel-check-rate.php:73
+#: public/widgets/availability/tim-package-request.php:123
+#: public/widgets/availability/tim-tour-check-rate.php:157
+#: public/widgets/availability/tim-transportation-check-rate.php:150
+msgid "Taxes"
+msgstr "Steuern"
+
+#: public/templates/cart/modals/tim-cart-item-hotel.php:105
+#: public/templates/cart/modals/tim-cart-item-tour.php:337
+#: public/templates/cart/modals/tim-cart-item-transportation.php:281
+#: public/templates/cart/tim-cart-detail.php:157
+#: public/templates/checkout/checkout-totals.php:17
+#: public/templates/order/payment-details.php:69
+#: public/widgets/availability/tim-hotel-check-rate.php:74
+#: public/widgets/availability/tim-package-request.php:124
+#: public/widgets/availability/tim-tour-check-rate.php:158
+#: public/widgets/availability/tim-transportation-check-rate.php:151
+msgid "Subtotal"
+msgstr "Zwischensumme"
+
+#: public/templates/cart/modals/tim-cart-item-hotel.php:106
+#: public/templates/cart/modals/tim-cart-item-tour.php:338
+#: public/templates/cart/modals/tim-cart-item-transportation.php:282
+#: public/templates/cart/tim-cart-detail.php:190
+#: public/templates/checkout/checkout-totals.php:76
+#: public/templates/order/payment-details.php:132
+#: public/widgets/availability/tim-hotel-check-rate.php:75
+#: public/widgets/availability/tim-package-request.php:125
+#: public/widgets/availability/tim-tour-check-rate.php:159
+#: public/widgets/availability/tim-transportation-check-rate.php:152
+msgid "Total price"
+msgstr "Gesamtpreis"
+
+#: public/templates/cart/modals/tim-cart-item-hotel.php:109
+#: public/widgets/availability/tim-hotel-check-rate.php:78
+msgid "Check-in required"
+msgstr "Einchecken benötigt"
+
+#: public/templates/cart/modals/tim-cart-item-hotel.php:110
+#: public/widgets/availability/tim-hotel-check-rate.php:79
+msgid "Check-out required"
+msgstr "Check-out erforderlich"
+
+#: public/templates/cart/modals/tim-cart-item-tour.php:51
+#: public/templates/cart/modals/tim-cart-item-transportation.php:49
+#: public/templates/cart/products/tour.php:3
+#: public/widgets/availability/tim-tour-check-rate.php:88
+#: public/widgets/availability/tim-transportation-check-rate.php:82
+#: public/widgets/searchs/tim-transportation-search.php:115
+msgid "Service date"
+msgstr "Servicedatum"
+
+#: public/templates/cart/modals/tim-cart-item-tour.php:58
+#: public/templates/cart/modals/tim-cart-item-transportation.php:56
+msgid "Available"
+msgstr "Verfügbar"
+
+#: public/templates/cart/modals/tim-cart-item-tour.php:63
+#: public/templates/cart/modals/tim-cart-item-transportation.php:61
+msgid "Full"
+msgstr "Voll"
+
+#: public/templates/cart/modals/tim-cart-item-tour.php:68
+#: public/templates/cart/modals/tim-cart-item-transportation.php:66
+#: public/widgets/availability/tim-tour-check-rate.php:25
+#: public/widgets/availability/tim-tour-check-rate.php:96
+#: public/widgets/availability/tim-transportation-check-rate.php:25
+msgid "How many people?"
+msgstr "Wie viele Leute?"
+
+#: public/templates/cart/modals/tim-cart-item-tour.php:90
+#: public/templates/cart/modals/tim-cart-item-transportation.php:88
+#: public/widgets/availability/tim-tour-check-rate.php:47
+#: public/widgets/availability/tim-tour-check-rate.php:118
+#: public/widgets/availability/tim-transportation-check-rate.php:47
+#: public/widgets/availability/tim-transportation-check-rate.php:111
+msgid "years"
+msgstr "Jahre"
+
+#: public/templates/cart/modals/tim-cart-item-tour.php:114
+#: public/templates/cart/modals/tim-cart-item-tour.php:339
+#: public/widgets/availability/tim-package-request.php:107
+#: public/widgets/availability/tim-tour-check-rate.php:161
+msgid "Specify the age of the children"
+msgstr "Geben Sie das Alter der Kinder an"
+
+#: public/templates/cart/modals/tim-cart-item-tour.php:152
+#: public/templates/cart/modals/tim-cart-item-transportation.php:105
+#: public/widgets/availability/tim-tour-check-rate.php:65
+#: public/widgets/availability/tim-tour-check-rate.php:135
+#: public/widgets/availability/tim-transportation-check-rate.php:62
+#: public/widgets/availability/tim-transportation-check-rate.php:128
+msgid "Choose one option below"
+msgstr "Wählen Sie unten eine Option aus"
+
+#: public/templates/cart/modals/tim-cart-item-tour.php:203
+#: public/templates/cart/modals/tim-cart-item-transportation.php:164
+msgid "Pick-up / Drop-off"
+msgstr "Abholung / Rückgabe"
+
+#: public/templates/cart/modals/tim-cart-item-tour.php:234
+#: public/templates/cart/modals/tim-cart-item-transportation.php:194
+msgid "Pickup place"
+msgstr "Abholort"
+
+#: public/templates/cart/modals/tim-cart-item-tour.php:237
+#: public/templates/cart/modals/tim-cart-item-transportation.php:197
+#: public/templates/cart/products/tour.php:75
+msgid "Select pickup place"
+msgstr "Abholort auswählen"
+
+#: public/templates/cart/modals/tim-cart-item-tour.php:272
+#: public/templates/cart/modals/tim-cart-item-transportation.php:220
+msgid "Dropoff place"
+msgstr "Abgabestelle"
+
+#: public/templates/cart/modals/tim-cart-item-tour.php:275
+#: public/templates/cart/modals/tim-cart-item-transportation.php:223
+#: public/templates/cart/products/tour.php:140
+msgid "Select dropoff place"
+msgstr "Abgabeort auswählen"
+
+#: public/templates/cart/modals/tim-cart-item-tour.php:329
+#: public/templates/cart/modals/tim-cart-item-transportation.php:273
+#: public/widgets/availability/tim-tour-check-rate.php:149
+#: public/widgets/availability/tim-transportation-check-rate.php:142
+msgid "Availability for"
+msgstr "Verfügbarkeit für"
+
+#: public/templates/cart/modals/tim-cart-item-tour.php:330
+#: public/templates/cart/modals/tim-cart-item-transportation.php:274
+#: public/templates/cart/tim-cart-detail.php:33
+#: public/templates/cart/tim-cart-detail.php:173
+#: public/templates/cart/tim-cart-summary.php:12
+#: public/widgets/availability/tim-tour-check-rate.php:150
+#: public/widgets/availability/tim-transportation-check-rate.php:143
+msgid "Transportation"
+msgstr "Transport"
+
+#: public/templates/cart/modals/tim-cart-item-tour.php:342
+#: public/templates/cart/modals/tim-cart-item-transportation.php:284
+#: public/widgets/availability/tim-package-request.php:128
+#: public/widgets/availability/tim-tour-check-rate.php:164
+#: public/widgets/availability/tim-transportation-check-rate.php:155
+#: public/widgets/searchs/tim-transportation-search.php:201
+msgid "Min pax required"
+msgstr "Mindestteilnehmerzahl erforderlich"
+
+#: public/templates/cart/modals/tim-cart-item-tour.php:343
+#: public/templates/cart/modals/tim-cart-item-transportation.php:285
+#: public/widgets/availability/tim-package-request.php:129
+#: public/widgets/availability/tim-tour-check-rate.php:165
+#: public/widgets/availability/tim-transportation-check-rate.php:156
+msgid "Select an earlier date"
+msgstr "Wählen Sie ein früheres Datum"
+
+#: public/templates/cart/modals/tim-cart-item-tour.php:345
+#: public/templates/cart/modals/tim-cart-item-transportation.php:287
+#: public/templates/cart/tim-cart-detail.php:145
+#: public/templates/cart/tim-cart-detail.php:214
+#: public/widgets/availability/tim-package-request.php:131
+#: public/widgets/availability/tim-tour-check-rate.php:167
+#: public/widgets/availability/tim-transportation-check-rate.php:158
+msgid "Select the pick-up place"
+msgstr "Wählen Sie den Abholort aus"
+
+#: public/templates/cart/modals/tim-cart-item-tour.php:346
+#: public/templates/cart/modals/tim-cart-item-transportation.php:288
+#: public/widgets/availability/tim-tour-check-rate.php:169
+#: public/widgets/availability/tim-transportation-check-rate.php:160
+#: public/widgets/searchs/tim-transportation-search.php:203
+msgid "No options available. Try another date!"
+msgstr "Keine Verfügbarkeit. Probiere ein anderes Datum!"
+
+#: public/templates/cart/products/hotel.php:15
+#: public/templates/cart/products/tour.php:15
+msgid "Total pax"
+msgstr "Anzahl der Teilnehmer"
+
+#: public/templates/cart/products/tour.php:9
+msgid "Service time"
+msgstr "Servicezeit"
+
+#: public/templates/cart/products/tour.php:28
+msgid "Pick-up place"
+msgstr "Abholort"
+
+#: public/templates/cart/products/tour.php:120
+msgid "Drop-off place"
+msgstr "Abgabestelle"
+
+#: public/templates/cart/tim-cart-detail.php:69
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: public/templates/cart/tim-cart-detail.php:70
+msgid "Remove"
+msgstr "Entfernen"
+
+#: public/templates/cart/tim-cart-detail.php:96
+#: public/templates/cart/tim-cart-detail.php:133
+#: public/templates/checkout/checkout-totals.php:29
+#: public/templates/checkout/checkout-totals.php:39
+#: public/templates/order/payment-details.php:83
+#: public/templates/order/payment-details.php:93
+msgid "Extras"
+msgstr "Extras"
+
+#: public/templates/cart/tim-cart-detail.php:119
+msgid "Print voucher"
+msgstr "Gutschein ausdrucken"
+
+#: public/templates/cart/tim-cart-detail.php:165
+#: public/templates/checkout/checkout-totals.php:48
+#: public/templates/order/payment-details.php:103
+msgid "Discount"
+msgstr "Rabatt"
+
+#: public/templates/cart/tim-cart-detail.php:197
+#: public/templates/checkout/payment-gateways/bac_ecommerce.php:139
+#: public/templates/checkout/payment-gateways/bcr_ecommerce.php:48
+#: public/templates/checkout/payment-gateways/pay_later.php:13
+msgid "Complete order"
+msgstr "Bestellung abschließen"
+
+#: public/templates/cart/tim-cart-detail.php:212
+msgid "Extra cost"
+msgstr "Extrakosten"
+
+#: public/templates/cart/tim-cart-detail.php:213
+#: public/templates/checkout/checkout-totals.php:106
+msgid "Apply"
+msgstr "Anwenden"
+
+#: public/templates/cart/tim-cart-detail.php:215
+msgid "Select the drop-off place"
+msgstr "Wählen Sie den Abgabeort aus"
+
+#: public/templates/cart/tim-cart-detail.php:220
+#: public/templates/cart/tim-cart-summary.php:68
+msgid "Empty order"
+msgstr "Leere Bestellung"
+
+#: public/templates/checkout/checkout-detail.php:84
+#: public/templates/checkout/checkout-detail.php:142
+#: public/templates/checkout/checkout-detail.php:144
+#: public/templates/my-account/tim-client-profile.php:12
+#: public/templates/my-account/tim-client-profile.php:52
+#: public/templates/my-account/tim-login-form.php:45
+#: public/templates/my-account/tim-signup-form.php:22
+#: public/templates/my-account/tim-signup-form.php:109
+#: public/templates/order/tim-order-detail.php:62
+#: public/widgets/availability/tim-package-request.php:64
+msgid "Name"
+msgstr "Name"
+
+#: public/templates/checkout/checkout-detail.php:87
+#: public/templates/checkout/checkout-detail.php:166
+#: public/templates/checkout/checkout-detail.php:168
+#: public/templates/my-account/tim-client-profile.php:39
+#: public/templates/my-account/tim-client-profile.php:96
+#: public/templates/my-account/tim-login-form.php:11
+#: public/templates/my-account/tim-login-form.php:46
+#: public/templates/my-account/tim-password-recovery-form.php:11
+#: public/templates/my-account/tim-signup-form.php:79
+#: public/templates/my-account/tim-signup-form.php:110
+#: public/templates/order/tim-verify-order-form.php:16
+#: public/widgets/availability/tim-package-request.php:69
+msgid "E-mail address"
+msgstr "E-Mail-Addresse"
+
+#: public/templates/checkout/checkout-detail.php:105
+#: public/templates/order/tim-order-detail.php:57
+msgid "Contact details"
+msgstr "Kontaktdetails"
+
+#: public/templates/checkout/checkout-detail.php:120
+msgid "Si"
+msgstr "Ja"
+
+#: public/templates/checkout/checkout-detail.php:126
+msgid "No"
+msgstr "Nein"
+
+#: public/templates/checkout/checkout-detail.php:154
+#: public/templates/checkout/checkout-detail.php:156
+#: public/templates/my-account/tim-client-profile.php:15
+#: public/templates/my-account/tim-client-profile.php:58
+#: public/templates/my-account/tim-signup-form.php:28
+#: public/templates/order/tim-order-detail.php:69
+msgid "Last name"
+msgstr "Nachname"
+
+#: public/templates/checkout/checkout-detail.php:182
+#: public/templates/checkout/checkout-detail.php:192
+#: public/templates/my-account/tim-client-profile.php:18
+#: public/templates/my-account/tim-client-profile.php:64
+#: public/templates/my-account/tim-signup-form.php:34
+#: public/templates/order/tim-order-detail.php:76
+msgid "Country"
+msgstr "Land"
+
+#: public/templates/checkout/checkout-detail.php:202
+#: public/templates/checkout/checkout-detail.php:204
+#: public/templates/my-account/tim-client-profile.php:29
+#: public/templates/my-account/tim-client-profile.php:85
+#: public/templates/my-account/tim-signup-form.php:48
+msgid "Phone"
+msgstr "Telefon"
+
+#: public/templates/checkout/checkout-detail.php:220
+#: public/templates/checkout/checkout-detail.php:230
+#: public/templates/my-account/tim-client-profile.php:33
+#: public/templates/my-account/tim-signup-form.php:59
+msgid "Tax id type"
+msgstr "Steuer-ID-Typ"
+
+#: public/templates/checkout/checkout-detail.php:241
+#: public/templates/checkout/checkout-detail.php:243
+#: public/templates/my-account/tim-client-profile.php:36
+#: public/templates/my-account/tim-signup-form.php:73
+msgid "Tax id number"
+msgstr "USt-ID Nummer"
+
+#: public/templates/checkout/checkout-detail.php:260
+msgid "Special instructions"
+msgstr "Spezielle Anweisungen"
+
+#: public/templates/checkout/checkout-detail.php:266
+#: public/templates/order/tim-order-detail.php:32
+msgid "Summary"
+msgstr "Zusammenfassung"
+
+#: public/templates/checkout/checkout-detail.php:273
+#: public/templates/order/tim-order-detail.php:85
+msgid "Payment"
+msgstr "Zahlung"
+
+#: public/templates/checkout/checkout-detail.php:287
+#: public/templates/order/tim-order-detail.php:111
+msgid "Payment method"
+msgstr "Zahlungsmethode"
+
+#: public/templates/checkout/checkout-detail.php:300
+#: public/templates/checkout/checkout-detail.php:315
+#: public/templates/checkout/payment-gateways/bac_ecommerce.php:143
+#: public/templates/checkout/payment-gateways/bcr_ecommerce.php:52
+msgid "Credit card"
+msgstr "Kreditkarte"
+
+#: public/templates/checkout/checkout-detail.php:330
+msgid "PayPal"
+msgstr "Paypal"
+
+#: public/templates/checkout/checkout-detail.php:343
+msgid "Pay later"
+msgstr "Später bezahlen"
+
+#: public/templates/checkout/checkout-detail.php:360
+msgid "I agree to the"
+msgstr "Ich stimme dem zu"
+
+#: public/templates/checkout/checkout-detail.php:361
+#: public/templates/checkout/modals/tim-cancellation-policies.php:6
+msgid "Booking cancellation policies"
+msgstr "Geschäftsbedingungen zu"
+
+#: public/templates/checkout/checkout-detail.php:373
+msgid "Please complete the cart form"
+msgstr "Bitte füllen Sie das Warenkorbformular aus"
+
+#: public/templates/checkout/checkout-detail.php:386
+msgid "Please check the errors below"
+msgstr "Bitte überprüfen Sie die Fehler unten"
+
+#: public/templates/checkout/checkout-detail.php:390
+msgid "Login first, or buy as guest"
+msgstr "Zuerst einloggen oder als Gast kaufen"
+
+#: public/templates/checkout/checkout-totals.php:48
+msgid "Remove coupon"
+msgstr "Gutschein entfernen"
+
+#: public/templates/checkout/checkout-totals.php:97
+msgid "Invalid coupon"
+msgstr "Ungültiger Gutschein"
+
+#: public/templates/checkout/payment-gateways/bac_ecommerce.php:40
+#: public/templates/checkout/payment-gateways/bac_ecommerce.php:41
+msgid "Credit card number"
+msgstr "Kreditkartennummer"
+
+#: public/templates/checkout/payment-gateways/bac_ecommerce.php:42
+msgid "Invalid Credit Card number"
+msgstr "Ungültige Kreditkartennummer"
+
+#: public/templates/checkout/payment-gateways/bac_ecommerce.php:63
+msgid "Exp. month"
+msgstr "Gültig bis"
+
+#: public/templates/checkout/payment-gateways/bac_ecommerce.php:65
+msgid "Invalid date"
+msgstr "Ungültiges Datum"
+
+#: public/templates/checkout/payment-gateways/bac_ecommerce.php:83
+msgid "Exp. year"
+msgstr "Erw. Jahr"
+
+#: public/templates/checkout/payment-gateways/bac_ecommerce.php:95
+#: public/templates/checkout/payment-gateways/bac_ecommerce.php:96
+msgid "CCV code"
+msgstr "CVV-Code"
+
+#: public/templates/checkout/payment-gateways/bac_ecommerce.php:97
+msgid "Invalid CCV"
+msgstr "Ungültiger CCV"
+
+#: public/templates/checkout/payment-gateways/bac_ecommerce.php:111
+#: public/templates/checkout/payment-gateways/bac_ecommerce.php:112
+msgid "Name on card"
+msgstr "Name auf der Karte"
+
+#: public/templates/checkout/payment-gateways/bac_ecommerce.php:113
+msgid "Invalid Name on card"
+msgstr "Ungültiger Name auf Karte"
+
+#: public/templates/checkout/payment-gateways/pay_later.php:18
+msgid "Your order will be pending until confirming payment."
+msgstr "Ihre Bestellung ist bis zur Bestätigung der Zahlung ausstehend."
+
+#: public/templates/hotels/modals/tim-hotel-detail-modal.php:230
+msgid "Hotel Rooms"
+msgstr "Hotelzimmer"
+
+#: public/templates/hotels/tim-hotel-list.php:240
+#: public/templates/locations/tim-location-list.php:186
+#: public/templates/packages/tim-package-list.php:250
+#: public/templates/tours/tim-tour-list.php:294
+#: public/templates/transportations/tim-transportation-list.php:268
+msgid "Sorry. No items found"
+msgstr "Es tut uns leid. Keine Elemente gefunden"
+
+#: public/templates/my-account/tim-client-profile.php:9
+msgid "Profile"
+msgstr "Profile"
+
+#: public/templates/my-account/tim-client-profile.php:47
+#: public/templates/my-account/tim-client-profile.php:167
+msgid "Edit profile"
+msgstr "Profil bearbeiten"
+
+#: public/templates/my-account/tim-client-profile.php:67
+#: public/templates/my-account/tim-signup-form.php:37
+#: public/templates/my-account/tim-signup-form.php:62
+#: public/widgets/searchs/tim-transportation-search.php:98
+#: public/widgets/searchs/tim-transportation-search.php:111
+#: public/widgets/searchs/tim-transportation-search.php:204
+msgid "Select"
+msgstr "Wählen"
+
+#: public/templates/my-account/tim-client-profile.php:101
+msgid "Update profile"
+msgstr "Profil aktualisieren"
+
+#: public/templates/my-account/tim-client-profile.php:105
+#: public/templates/my-account/tim-client-profile.php:146
+msgid "Cancel"
+msgstr "Stornieren"
+
+#: public/templates/my-account/tim-client-profile.php:115
+#: public/templates/my-account/tim-login-form.php:49
+#: public/templates/my-account/tim-password-recovery-form.php:36
+#: public/templates/my-account/tim-signup-form.php:112
+#: public/templates/order/tim-verify-order-form.php:28
+#: public/widgets/availability/tim-package-request.php:95
+#: public/widgets/availability/tim-package-request.php:114
+msgid "Invalid e-mail"
+msgstr "Ungültige E-Mail"
+
+#: public/templates/my-account/tim-client-profile.php:116
+#: public/templates/my-account/tim-signup-form.php:113
+msgid "Invalid phone number"
+msgstr "Ungültige Telefonnummer"
+
+#: public/templates/my-account/tim-client-profile.php:118
+msgid "Your profile has been updated"
+msgstr "Ihr Profil wurde aktualisiert"
+
+#: public/templates/my-account/tim-client-profile.php:124
+#: public/templates/my-account/tim-client-profile.php:170
+msgid "Edit password"
+msgstr "Passwort bearbeiten"
+
+#: public/templates/my-account/tim-client-profile.php:128
+#: public/templates/my-account/tim-login-form.php:16
+#: public/templates/my-account/tim-signup-form.php:85
+msgid "Password"
+msgstr "Passwort"
+
+#: public/templates/my-account/tim-client-profile.php:133
+msgid "Confirm password"
+msgstr "Kennwort bestätigen"
+
+#: public/templates/my-account/tim-client-profile.php:142
+#: public/templates/my-account/tim-edit-password-form.php:27
+msgid "Update password"
+msgstr "Passwort erneuern"
+
+#: public/templates/my-account/tim-client-profile.php:156
+#: public/templates/my-account/tim-edit-password-form.php:34
+#: public/templates/my-account/tim-signup-form.php:121
+msgid "Invalid password"
+msgstr "Ungültiges Passwort"
+
+#: public/templates/my-account/tim-client-profile.php:157
+msgid "Passwords do not match"
+msgstr "Passwörter stimmen nicht überein"
+
+#: public/templates/my-account/tim-client-profile.php:158
+msgid "Your password has been updated"
+msgstr "Dein Passwort wurde aktualisiert"
+
+#: public/templates/my-account/tim-client-profile.php:164
+#: public/templates/my-account/tim-my-account.php:17
+msgid "View profile"
+msgstr "Profil anzeigen"
+
+#: public/templates/my-account/tim-edit-password-form.php:8
+msgid "Reset your Password"
+msgstr "Reset your Password"
+
+#: public/templates/my-account/tim-edit-password-form.php:11
+msgid ""
+"We have sent a code to your email address. Enter the code in the field below "
+"so you can set a new password"
+msgstr ""
+"Wir haben einen Code an Ihre E-Mail-Adresse gesendet. Geben Sie den Code in "
+"das Feld unten ein, damit Sie ein neues Passwort festlegen können"
+
+#: public/templates/my-account/tim-edit-password-form.php:16
+msgid "Code"
+msgstr "Code"
+
+#: public/templates/my-account/tim-edit-password-form.php:21
+msgid "New Password"
+msgstr "New Password"
+
+#: public/templates/my-account/tim-edit-password-form.php:33
+msgid "Enter the password"
+msgstr "Geben Sie das Passwort ein"
+
+#: public/templates/my-account/tim-edit-password-form.php:36
+msgid "Password has been reset. You can authenticate now"
+msgstr "Passwort wurde zurückgesetzt. Sie können sich jetzt authentifizieren"
+
+#: public/templates/my-account/tim-list-orders.php:6
+msgid "List orders"
+msgstr "Aufträge"
+
+#: public/templates/my-account/tim-list-orders.php:13
+#: public/templates/my-account/tim-list-orders.php:27
+#: public/templates/order/payment-details.php:5
+#: public/templates/order/tim-order-completed.php:44
+#: public/templates/order/tim-order-detail.php:23
+#: public/templates/order/tim-verify-order-form.php:11
+msgid "Booking number"
+msgstr "Buchungsnummer"
+
+#: public/templates/my-account/tim-list-orders.php:14
+#: public/templates/my-account/tim-list-orders.php:30
+#: public/templates/order/payment-details.php:15
+#: public/templates/order/tim-order-completed.php:24
+#: public/templates/order/tim-order-completed.php:34
+#: public/templates/order/tim-order-detail.php:8
+#: public/templates/order/tim-order-detail.php:123
+#: public/templates/order/tim-order-detail.php:142
+msgid "Status"
+msgstr "Status"
+
+#: public/templates/my-account/tim-list-orders.php:15
+#: public/templates/my-account/tim-list-orders.php:44
+msgid "Start date"
+msgstr "Anfangsdatum"
+
+#: public/templates/my-account/tim-list-orders.php:16
+#: public/templates/my-account/tim-list-orders.php:47
+msgid "End date"
+msgstr "Endtermin"
+
+#: public/templates/my-account/tim-list-orders.php:34
+#: public/templates/order/payment-details.php:27
+#: public/templates/order/tim-order-completed.php:35
+#: public/templates/order/tim-order-detail.php:12
+msgid "Confirmed"
+msgstr "Bestätigt"
+
+#: public/templates/my-account/tim-list-orders.php:39
+#: public/templates/order/payment-details.php:22
+#: public/templates/order/tim-order-completed.php:25
+#: public/templates/order/tim-order-detail.php:16
+msgid "Pending"
+msgstr "Steht aus"
+
+#: public/templates/my-account/tim-list-orders.php:54
+#: public/templates/order/tim-order-completed.php:48
+msgid "View order"
+msgstr "Bestellung ansehen"
+
+#: public/templates/my-account/tim-list-orders.php:65
+msgid "No orders"
+msgstr "Keine Bestellungen"
+
+#: public/templates/my-account/tim-login-form.php:8
+#: public/templates/my-account/tim-login-form.php:24
+#: public/widgets/cart/tim-cart.php:212
+msgid "Log in"
+msgstr "Einloggen"
+
+#: public/templates/my-account/tim-login-form.php:29
+msgid "Forgot password?"
+msgstr "Passwort vergessen?"
+
+#: public/templates/my-account/tim-login-form.php:39
+#: public/templates/my-account/tim-signup-form.php:17
+msgid "Create account"
+msgstr "Benutzerkonto erstellen"
+
+#: public/templates/my-account/tim-login-form.php:43
+#: public/templates/my-account/tim-signup-form.php:107
+msgid "Hello"
+msgstr "Hallo"
+
+#: public/templates/my-account/tim-login-form.php:44
+#: public/templates/my-account/tim-signup-form.php:108
+#: public/widgets/cart/tim-cart.php:201
+msgid "Logout"
+msgstr "Ausloggen"
+
+#: public/templates/my-account/tim-login-form.php:48
+#: public/templates/order/tim-verify-order-form.php:27
+msgid "Enter your e-mail"
+msgstr "Geben sie ihre E-Mail Adresse ein"
+
+#: public/templates/my-account/tim-login-form.php:50
+#: public/templates/my-account/tim-signup-form.php:120
+msgid "Enter your password"
+msgstr "Geben Sie Ihr Passwort ein"
+
+#: public/templates/my-account/tim-my-account.php:9
+msgid "Welcome"
+msgstr "Herzlich willkommen"
+
+#: public/templates/my-account/tim-password-recovery-form.php:8
+msgid "Password recovery"
+msgstr "Passwort-Wiederherstellung"
+
+#: public/templates/my-account/tim-password-recovery-form.php:19
+msgid "Reset password"
+msgstr "Passwort zurücksetzen"
+
+#: public/templates/my-account/tim-password-recovery-form.php:24
+#: public/templates/my-account/tim-signup-form.php:98
+msgid "Back to login"
+msgstr "Zurück zur Anmeldung"
+
+#: public/templates/my-account/tim-password-recovery-form.php:32
+msgid "We will send a code to your email address so you can set a new password"
+msgstr ""
+"Wir senden Ihnen einen Code an Ihre E-Mail-Adresse, damit Sie ein neues "
+"Passwort festlegen können"
+
+#: public/templates/my-account/tim-password-recovery-form.php:35
+msgid "Enter you e-mail address"
+msgstr "Geben Sie Ihre E-Mail-Adresse ein"
+
+#: public/templates/my-account/tim-signup-form.php:93
+msgid "Sign up"
+msgstr "Anmelden"
+
+#: public/templates/my-account/tim-signup-form.php:114
+msgid "Select your country"
+msgstr "Wähle dein Land"
+
+#: public/templates/my-account/tim-signup-form.php:115
+msgid "Select your tax id code"
+msgstr "Select your tax id code"
+
+#: public/templates/my-account/tim-signup-form.php:116
+msgid "Enter your tax id number"
+msgstr "Geben Sie Ihre Steuernummer ein"
+
+#: public/templates/my-account/tim-signup-form.php:118
+msgid "Invalid tax id number"
+msgstr "Ungültige Steuernummer"
+
+#: public/templates/order/payment-details.php:42
+msgid "Payment pending"
+msgstr "Zahlung ausstehend"
+
+#: public/templates/order/payment-details.php:50
+#: public/templates/order/tim-order-detail.php:126
+msgid "Paid"
+msgstr "Bezahlt"
+
+#: public/templates/order/tim-order-completed.php:14
+msgid "Order completed"
+msgstr "Bestellung abgeschlossen"
+
+#: public/templates/order/tim-order-completed.php:16
+msgid "Thank you"
+msgstr "Vielen Dank"
+
+#: public/templates/order/tim-order-completed.php:22
+msgid "Your booking has been processed"
+msgstr "Ihre Buchung ist bei uns eingegangen"
+
+#: public/templates/order/tim-order-completed.php:27
+#: public/templates/order/tim-order-detail.php:16
+msgid "Awaiting staff response"
+msgstr ""
+"Ein Mitarbeiter wird sich in Kürze mit Ihnen in Verbindung setzen, um alle "
+"weiteren Details zu klären"
+
+#: public/templates/order/tim-order-completed.php:32
+msgid "Your booking has been completed"
+msgstr "Ihre Buchung ist abgeschlossen"
+
+#: public/templates/order/tim-order-detail.php:45
+#: public/templates/order/tim-order-detail.php:102
+msgid "Print invoice"
+msgstr "Rechnung drucken"
+
+#: public/templates/order/tim-order-detail.php:48
+msgid "Print itinerary"
+msgstr "Reiseplan drucken"
+
+#: public/templates/order/tim-order-detail.php:99
+msgid "Payment details"
+msgstr "Zahlungsdetails"
+
+#: public/templates/order/tim-order-detail.php:131
+msgid "Transaction ID"
+msgstr "Transaktions-ID"
+
+#: public/templates/order/tim-order-detail.php:145
+msgid "Pending payment"
+msgstr "Ausstehende Zahlung"
+
+#: public/templates/order/tim-verify-order-form.php:8
+msgid "Enter your Booking number and e-mail address"
+msgstr "Geben Sie Ihre Buchungsnummer und E-Mail-Adresse ein"
+
+#: public/templates/order/tim-verify-order-form.php:26
+msgid "Enter your Booking number"
+msgstr "Geben Sie Ihre Buchungsnummer ein"
+
+#: public/templates/packages/tim-package-detail.php:60
+msgid "Breakfast"
+msgstr "Frühstück"
+
+#: public/templates/packages/tim-package-detail.php:63
+msgid "Lunch"
+msgstr "Mittagessen"
+
+#: public/templates/packages/tim-package-detail.php:66
+msgid "Dinner"
+msgstr "Abendessen"
+
+#: public/templates/packages/tim-package-detail.php:69
+msgid "All-inclusive"
+msgstr "Alles inklusive"
+
+#: public/templates/tours/modals/tim-tour-detail-modal.php:130
+msgid "Tour Overview"
+msgstr "Tourübersicht"
+
+#: public/widgets/availability/tim-hotel-check-rate.php:21
+#: public/widgets/availability/tim-tour-check-rate.php:15
+#: public/widgets/availability/tim-tour-check-rate.php:80
+#: public/widgets/availability/tim-transportation-check-rate.php:15
+#: public/widgets/availability/tim-transportation-check-rate.php:75
+msgid "Check availability"
+msgstr "Verfügbarkeit prüfen"
+
+#: public/widgets/availability/tim-package-request.php:9
+msgid "Request more information"
+msgstr "Mehr Informationen anfordern"
+
+#: public/widgets/availability/tim-package-request.php:74
+msgid "Whatsapp / Phone number to contact you?"
+msgstr "Whatsapp / Telefon zur Kontaktaufnahme?"
+
+#: public/widgets/availability/tim-package-request.php:83
+msgid "Comments"
+msgstr "Kommentare"
+
+#: public/widgets/availability/tim-package-request.php:87
+#: public/widgets/messages/tim-secondary-price-list.php:8
+msgid "Accept"
+msgstr "Akzeptieren"
+
+#: public/widgets/availability/tim-package-request.php:92
+#: public/widgets/availability/tim-package-request.php:112
+msgid "Select date"
+msgstr "Datum auswählen"
+
+#: public/widgets/availability/tim-package-request.php:93
+#: public/widgets/availability/tim-package-request.php:115
+msgid "Select adults"
+msgstr "Erwachsene auswählen"
+
+#: public/widgets/availability/tim-package-request.php:94
+#: public/widgets/availability/tim-package-request.php:113
+msgid "Enter your name"
+msgstr "Gib deinen Namen ein"
+
+#: public/widgets/availability/tim-package-request.php:97
+msgid "Request has been sent. We will reply your inquiry as soon as possible."
+msgstr ""
+"Anfrage wurde gesendet. Wir werden Ihre Anfrage so schnell wie möglich "
+"beantworten."
+
+#: public/widgets/availability/tim-package-request.php:126
+#: public/widgets/availability/tim-tour-check-rate.php:160
+#: public/widgets/availability/tim-transportation-check-rate.php:153
+msgid "Select time"
+msgstr "Select time"
+
+#: public/widgets/availability/tim-package-request.php:132
+#: public/widgets/availability/tim-tour-check-rate.php:168
+#: public/widgets/availability/tim-transportation-check-rate.php:159
+msgid "Select the pick-up time"
+msgstr "Wählen Sie die Abholzeit"
+
+#: public/widgets/availability/tim-tour-check-rate.php:18
+#: public/widgets/availability/tim-tour-check-rate.php:85
+#: public/widgets/availability/tim-transportation-check-rate.php:18
+msgid "Choose a date"
+msgstr "Wählen Sie ein Datum"
+
+#: public/widgets/cart/tim-cart.php:188
+msgid "Account"
+msgstr "Konto"
+
+#: public/widgets/cart/tim-cart.php:195
+msgid "My profile"
+msgstr "Mein Profil"
+
+#: public/widgets/messages/tim-booking-expired.php:3
+msgid "Booking deleted"
+msgstr "Buchung gelöscht"
+
+#: public/widgets/messages/tim-booking-expired.php:4
+msgid "Your booking has been deleted due to inactivity"
+msgstr "Ihre Buchung wurde aufgrund von Inaktivität gelöscht"
+
+#: public/widgets/messages/tim-booking-expired.php:7
+msgid "Dismiss"
+msgstr "Entlassen"
+
+#: public/widgets/messages/tim-secondary-price-list.php:14
+msgid "Decline"
+msgstr "Ablehnen"
+
+#: public/widgets/searchs/tim-hotel-list-search.php:49
+#: public/widgets/searchs/tim-location-list-search.php:21
+#: public/widgets/searchs/tim-package-list-search.php:47
+#: public/widgets/searchs/tim-tour-list-search.php:47
+#: public/widgets/searchs/tim-transportation-list-search.php:44
+msgid "Filter"
+msgstr "Filter"
+
+#: public/widgets/searchs/tim-hotel-list-search.php:55
+#: public/widgets/searchs/tim-location-list-search.php:26
+#: public/widgets/searchs/tim-tour-list-search.php:53
+msgid "All locations"
+msgstr "Alle Orte"
+
+#: public/widgets/searchs/tim-hotel-list-search.php:70
+#: public/widgets/searchs/tim-location-list-search.php:38
+#: public/widgets/searchs/tim-package-list-search.php:53
+#: public/widgets/searchs/tim-tour-list-search.php:69
+msgid "All categories"
+msgstr "Alle Kategorien"
+
+#: public/widgets/searchs/tim-hotel-list-search.php:84
+#: public/widgets/searchs/tim-package-list-search.php:67
+#: public/widgets/searchs/tim-tour-list-search.php:83
+msgid "Rate range"
+msgstr "Preisspanne"
+
+#: public/widgets/searchs/tim-hotel-list-search.php:102
+#: public/widgets/searchs/tim-location-list-search.php:64
+#: public/widgets/searchs/tim-package-list-search.php:85
+#: public/widgets/searchs/tim-tour-list-search.php:100
+#: public/widgets/searchs/tim-transportation-list-search.php:93
+msgid "Clear"
+msgstr "Klar"
+
+#: public/widgets/searchs/tim-hotel-list-search.php:109
+#: public/widgets/searchs/tim-location-list-search.php:71
+#: public/widgets/searchs/tim-package-list-search.php:92
+#: public/widgets/searchs/tim-tour-list-search.php:107
+#: public/widgets/searchs/tim-transportation-list-search.php:100
+msgid "List view"
+msgstr "Listenansicht"
+
+#: public/widgets/searchs/tim-hotel-list-search.php:110
+#: public/widgets/searchs/tim-location-list-search.php:72
+#: public/widgets/searchs/tim-package-list-search.php:93
+msgid "Grid view"
+msgstr "Rasteransicht"
+
+#: public/widgets/searchs/tim-location-list-search.php:53
+msgid "Sort"
+msgstr "Sortieren"
+
+#: public/widgets/searchs/tim-location-list-search.php:55
+msgid "Sort by"
+msgstr "Sortieren nach"
+
+#: public/widgets/searchs/tim-location-list-search.php:56
+msgid "Name ascending"
+msgstr "Name aufsteigend"
+
+#: public/widgets/searchs/tim-location-list-search.php:57
+msgid "Name descending"
+msgstr "Name absteigend"
+
+#: public/widgets/searchs/tim-location-list-search.php:58
+msgid "Higher rate"
+msgstr "Higher rate"
+
+#: public/widgets/searchs/tim-location-list-search.php:59
+msgid "Lower rate"
+msgstr "Niedrigere Rate"
+
+#: public/widgets/searchs/tim-tour-list-search.php:108
+#: public/widgets/searchs/tim-transportation-list-search.php:101
+msgid "Gallery view"
+msgstr "Galerieansicht"
+
+#: public/widgets/searchs/tim-transportation-search.php:128
+msgid "Pick up time"
+msgstr "Abholzeit"
+
+#: public/widgets/searchs/tim-transportation-search.php:192
+msgid "Schedule type"
+msgstr "Zeitplantyp"
+
+#: public/widgets/searchs/tim-transportation-search.php:194
+msgid "Fixed"
+msgstr "Fest"
+
+#: public/widgets/searchs/tim-transportation-search.php:197
+msgid "Pick-up time"
+msgstr "Abholzeit"
+
+#~ msgid "View transportation"
+#~ msgstr "Details"
+
+#~ msgid "View Order summary"
+#~ msgstr "Zusammenfassung der Bestellung anschauen"
+
+#~ msgid "By confirming your payment you agree to our"
+#~ msgstr "Mit der Bestätigung Ihrer Zahlung stimmen Sie unseren"
+
+#~ msgid "Please select the pick-up and drop-off"
+#~ msgstr "Bitte wählen Sie die Abholung und Rückgabe aus"
+
+#~ msgid "Guests"
+#~ msgstr "Gäste"
+
+#~ msgid "Back to order"
+#~ msgstr "Zurück zur Bestellung"
+
+#~ msgid "Customer details"
+#~ msgstr "Kundendetails"
+
+#~ msgid "horas"
+#~ msgstr "horas"

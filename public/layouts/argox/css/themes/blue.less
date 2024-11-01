@@ -1,0 +1,208 @@
+// ------------- Blue theme color ------------- //
+
+/* Content
+==================================================
+	Variables
+	Item list search
+	Item list
+		Item list image
+		Item list description
+		Item list price
+		Item list buttons
+	Item detail
+		Item detail overview
+		Item detail menu
+		Item detail content
+		Item detail video
+		Item detail map
+		Item detail booking form
+	Carrousel
+	Buttons	
+*/
+
+
+/* Variables
+================================================== */
+@base-bg-color: #21579C;
+@base-font-color: #fff;
+
+// Item list
+@item-promo-bar-bg-color: #f60;
+@item-promo-bar-font-color: #FEFEFE;
+
+@item-image-icons-bg-color: @base-bg-color;
+@item-image-icons-font-color: #fff;
+@item-image-icons-hover-bg-color: #333;
+
+@item-btn-bg-color: @base-bg-color !important;
+@item-btn-font-color: #fff !important;
+@item-btn-border-color: #04336F;
+@item-btn-hover-bg-color: #04336F;
+@item-btn-hover-border-color: #04336F;
+
+// Item detail
+@detail-overview-bg-color: #4A525D;
+@detail-overview-icons-bg-color: #4A84CE;
+@detail-overview-font-color: #fff;
+
+@menu-a-bg-color: @base-bg-color;
+@menu-a-font-color: #fff;
+@menu-a-active-bg-color: #04336F;
+@menu-a-hover-bg-color: #04336F;
+@menu-a-hover-border-color: #04336F;
+
+// Buttons
+@btn-bg-color: @base-bg-color;
+@btn-font-color: #fff !important;
+@btn-border-color: #2B5387;
+@btn-hover-bg-color: #04336F;
+@btn-hover-border-color: #02295A;
+
+// Carrousel
+@btn-carrousel-bg-color: @base-bg-color;
+@btn-carrousel-hover-bg-color: #333;
+
+
+/* Item list search
+================================================== */
+.tim_list_search {
+    background: #ddd;
+
+ 	select {
+    	background: #fff;
+    }
+}
+
+
+/* Item list
+================================================== */
+// Item list image
+.tim_item_image img {
+    border-bottom: 3px solid @base-bg-color;
+}
+
+.tim_item_image_icons a {
+    background-color: @item-image-icons-bg-color;
+    color: @item-image-icons-font-color;
+
+	&:hover {
+	    background-color: @item-image-icons-hover-bg-color;
+	}
+}
+
+// Item list price
+.tim_item_price_label {
+    color: #999;
+}
+
+.tim_item_image_angle {
+    background-color: @item-promo-bar-bg-color;
+    color: @item-promo-bar-font-color;
+}
+
+.tim_item_price_image_button {
+    background-color: @base-bg-color;
+    color: #FEFEFE;
+}
+
+// Item list buttons
+.tim_item_btn,
+.tim_item_btn:visited {
+    background: @item-btn-bg-color;
+    color: @item-btn-font-color;
+    border-bottom: 3px solid @item-btn-border-color;
+}
+
+.tim_item_btn:hover {
+    background: @item-btn-hover-bg-color;
+    color: @item-btn-font-color;
+    border-bottom: 3px solid @item-btn-hover-border-color;
+}
+
+
+/* Item detail
+================================================== */
+// Item detail overview
+.tim_detail_overview {
+    background: @detail-overview-bg-color;
+    color: @detail-overview-font-color;
+
+	.tim_detail_line {
+    	border-bottom: 1px solid #3F454E;
+    	border-top: 1px solid #606875;
+    }
+
+	.tim_detail_line_label .fa {
+	    color: @detail-overview-icons-bg-color;
+	}
+}
+
+.tim_detail_line_label .fa {
+    color: @base-bg-color;
+}
+
+// Item detail menu
+.tim_detail_menu_wrap {
+    background: @base-bg-color;
+}
+
+.tim_detail_menu a {
+    background: @menu-a-bg-color;
+    color: @menu-a-font-color;
+
+	&.active {
+	    background: @menu-a-active-bg-color;
+	    color: @menu-a-font-color;
+	}
+
+	&:hover {
+	    background: @menu-a-hover-bg-color;
+	}
+
+	&:hover.active {
+	    color: @menu-a-font-color;
+	    background: @menu-a-hover-bg-color;
+	    border-bottom: 3px solid @base-bg-color;
+	    border-color: @menu-a-hover-border-color;
+	}
+}
+
+// Item detail content
+.tim_detail_content {
+    border-top-color: @base-bg-color;
+}
+
+// Item detail booking form
+.tim_detail_booking_form h4 {
+    background: @base-bg-color;
+    color: @base-font-color;
+}
+
+
+/* Carrousel
+================================================== */
+.tim_list_carrousel {
+	.swiper-button-prev, .swiper-button-next {
+    	background-color: @btn-carrousel-bg-color;
+    }
+
+	.swiper-button-prev:hover, .swiper-button-next:hover {
+	    background-color: @btn-carrousel-hover-bg-color;
+	}
+}
+
+
+/* Buttons
+================================================== */
+.tim-btn,
+.tim-btn:visited {
+    background: @btn-bg-color;
+    color: @btn-font-color;
+    border-bottom: 3px solid @btn-border-color;
+}
+
+.tim-btn:hover {
+    background: @btn-hover-bg-color;
+    color: @btn-font-color;
+    border-bottom: 3px solid @btn-hover-border-color;
+}

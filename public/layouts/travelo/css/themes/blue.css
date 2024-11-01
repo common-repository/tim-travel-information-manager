@@ -1,0 +1,129 @@
+/* Content
+==================================================
+	Variables
+	Item list search
+	Item list
+		Item list image
+		Item list description
+		Item list price
+		Item list buttons
+	Item detail
+		Item detail overview
+		Item detail menu
+		Item detail content
+		Item detail video
+		Item detail map
+		Item detail booking form
+	Carrousel
+	Buttons	
+*/
+/* Variables
+================================================== */
+/* Item list search
+================================================== */
+.tim_list_search {
+  background: #ddd;
+}
+.tim_list_search select {
+  background: #fff;
+}
+/* Item list
+================================================== */
+.tim_item_image img {
+  border-bottom: 3px solid #21579C;
+}
+.tim_item_image_icons a {
+  background-color: #21579C;
+  color: #fff;
+}
+.tim_item_image_icons a:hover {
+  background-color: #333;
+}
+.tim_item_price_label {
+  color: #999;
+}
+.tim_item_image_angle {
+  background-color: #f60;
+  color: #FEFEFE;
+}
+.tim_item_price_image_button {
+  background-color: #21579C;
+  color: #FEFEFE;
+}
+.tim_item_btn,
+.tim_item_btn:visited {
+  background: #21579C;
+  color: #fff;
+  border-bottom: 3px solid #04336F;
+}
+.tim_item_btn:hover {
+  background: #04336F;
+  color: #fff;
+  border-bottom: 3px solid #04336F;
+}
+/* Item detail
+================================================== */
+.tim_detail_overview {
+  background: #4A525D;
+  color: #fff;
+}
+.tim_detail_overview .tim_detail_line {
+  border-bottom: 1px solid #3F454E;
+  border-top: 1px solid #606875;
+}
+.tim_detail_overview .tim_detail_line_label .fa {
+  color: #4A84CE;
+}
+.tim_detail_line_label .fa {
+  color: #21579C;
+}
+.tim_detail_menu_wrap {
+  background: #21579C;
+}
+.tim_detail_menu a {
+  background: #21579C;
+  color: #fff;
+}
+.tim_detail_menu a.active {
+  background: #04336F;
+  color: #fff;
+}
+.tim_detail_menu a:hover {
+  background: #04336F;
+}
+.tim_detail_menu a:hover.active {
+  color: #fff;
+  background: #04336F;
+  border-bottom: 3px solid #21579C;
+  border-color: #04336F;
+}
+.tim_detail_content {
+  border-top-color: #21579C;
+}
+.tim_detail_booking_form h4 {
+  background: #21579C;
+  color: #fff;
+}
+/* Carrousel
+================================================== */
+.tim_list_carrousel .swiper-button-prev,
+.tim_list_carrousel .swiper-button-next {
+  background-color: #21579C;
+}
+.tim_list_carrousel .swiper-button-prev:hover,
+.tim_list_carrousel .swiper-button-next:hover {
+  background-color: #333;
+}
+/* Buttons
+================================================== */
+.tim-btn,
+.tim-btn:visited {
+  background: #21579C;
+  color: #fff;
+  border-bottom: 3px solid #2B5387;
+}
+.tim-btn:hover {
+  background: #04336F;
+  color: #fff;
+  border-bottom: 3px solid #02295A;
+}

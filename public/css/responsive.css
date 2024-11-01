@@ -1,0 +1,509 @@
+/* Content
+==================================================
+	INITIAL STYLES
+	LARGER MOBILE DEVICES
+	TABLET & SMALLER LAPTOPS
+	DESKTOP
+	LARGE VIEWING SIZE
+	RETINA (2x RESOLUTION DEVICES)
+	iPHONE 5 MEDIA QUERY
+	PRINT STYLESHEET
+*/
+/*---------------------------------
+	LARGER MOBILE DEVICES
+	This is for mobile devices with a bit larger screens.
+================================================== */
+@media only screen and (max-width: 481px) {
+  .tim-search-form {
+    /*.tim-search-form-group [class*="tim_col_"]:last-child{
+			margin-bottom: 0;
+		}*/
+  }
+  .tim-search-form .tim-search-pax {
+    width: 32%;
+    margin-right: 2%;
+  }
+  .tim-search-form .tim-search-pax:last-child {
+    margin-right: 0;
+  }
+  .tim-form [class*="tim_col_"] {
+    margin-bottom: 10px;
+  }
+}
+@media all and (min-width: 420px) {
+  .tim_list .tim_item,
+  .tim_list .tim_gap {
+    width: 32%;
+    vertical-align: top;
+    display: inline-block;
+    overflow: hidden;
+  }
+}
+/*---------------------------------
+	TABLET & SMALLER LAPTOPS
+	The average viewing window and preferred media query for those is 768px. But I think that some more breathing space is good:)
+-----------------------------------*/
+@media only screen and (min-width: 920px) {
+  /* #GRID - columns : 12
+	================================================== */
+  .tim_row {
+    margin-bottom: 20px;
+  }
+  .tim_col_1,
+  .tim_col_2,
+  .tim_col_3,
+  .tim_col_4,
+  .tim_col_5,
+  .tim_col_6,
+  .tim_col_7,
+  .tim_col_8,
+  .tim_col_9,
+  .tim_col_10,
+  .tim_col_11,
+  .tim_col_12 {
+    margin: 0 0 0 2%;
+  }
+  .tim_col_1:first-child,
+  .tim_col_2:first-child,
+  .tim_col_3:first-child,
+  .tim_col_4:first-child,
+  .tim_col_5:first-child,
+  .tim_col_6:first-child,
+  .tim_col_7:first-child,
+  .tim_col_8:first-child,
+  .tim_col_9:first-child,
+  .tim_col_10:first-child,
+  .tim_col_11:first-child,
+  .tim_col_12:first-child {
+    margin-left: 0;
+  }
+  .tim_alpha {
+    margin-left: 0;
+  }
+  .tim_omega {
+    margin-right: 0;
+  }
+  .tim_col_1 {
+    width: 6.5%;
+  }
+  .tim_col_2 {
+    width: 15%;
+  }
+  .tim_col_3 {
+    width: 23.5%;
+  }
+  .tim_col_4 {
+    width: 32%;
+  }
+  .tim_col_5 {
+    width: 40.5%;
+  }
+  .tim_col_6 {
+    width: 49%;
+  }
+  .tim_col_7 {
+    width: 57.5%;
+  }
+  .tim_col_8 {
+    width: 66%;
+  }
+  .tim_col_9 {
+    width: 74.5%;
+  }
+  .tim_col_10 {
+    width: 83%;
+  }
+  .tim_col_11 {
+    width: 91.5%;
+  }
+  .tim_col_12 {
+    width: 100%;
+  }
+  .tim_no_mob {
+    display: block;
+  }
+  /*.tim_cart_widget{
+	    top: 10px;
+	    right: 10px;
+	    width: auto;
+	    border-radius: 3px;
+	}
+
+	.tim_cart_widget.tim_cart_widget_relative{
+		top: 0;
+	    right: 0;
+	}*/
+  /* Form
+	================================================== */
+  .tim-form {
+    /*input, 
+		select, 
+		textarea{
+			margin-bottom: 15px;
+		}*/
+    /*.tim_error_input_msg {
+			margin-top: -10px;
+    		margin-bottom: 10px;
+		}*/
+  }
+  .tim-form .tim-form-group {
+    margin-bottom: 15px;
+    /*input[type='text'], select{
+				margin-bottom: 0;
+			}*/
+    /*&:last-child{
+				margin-bottom: 0;
+			}*/
+  }
+  .tim-form .tim-form-control,
+  .tim-form input.tim-form-control,
+  .tim-form input:not([type="checkbox"]):not([type="radio"]):not([type="submit"]):not([type="reset"]).tim-form-control {
+    padding: 23px 16px 7px;
+    font-size: 16px;
+    position: relative;
+  }
+  .tim-form select.tim-form-control {
+    padding: 18px 12px 17px;
+    font-size: 16px;
+  }
+  .tim-form select.tim-form-control:valid {
+    padding: 26px 12px 8px;
+  }
+  .tim-form select.tim-form-control:required:invalid:disabled {
+    font-size: 15px;
+  }
+  .tim-form select.tim-form-control option {
+    font-size: 16px;
+  }
+  .tim-form textarea.tim-form-control {
+    padding-top: 14px;
+    font-size: 15px;
+  }
+  .tim-form .tim-control-label {
+    font-size: 15px;
+  }
+  .tim-form .tim-control-label::before {
+    left: 17px;
+  }
+  .tim-form .tim-form-control:placeholder-shown + .tim-control-label::before {
+    transform: translate3d(0, -38px, 0) scale3d(1, 1, 1);
+  }
+  .tim-form .tim-control-label::before,
+  .tim-form .tim-form-control:focus + .tim-control-label::before {
+    transform: translate3d(0, -47px, 0) scale3d(0.82, 0.82, 1);
+  }
+  /* Table
+	================================================== */
+  .tim_table {
+    width: 100%;
+  }
+  .tim_table thead tr {
+    display: table-row;
+  }
+  .tim_table thead tr th {
+    background: #e7e7e7;
+    font-weight: 500;
+    font-size: 12px;
+    padding: 0.7em 1em;
+    text-align: left;
+    color: #6a6868;
+  }
+  .tim_table tbody tr {
+    display: table-row;
+  }
+  .tim_table tbody td {
+    display: table-cell;
+    font-size: 14px;
+    text-align: left;
+    border-bottom: none;
+    padding: 1em;
+  }
+  .tim_table tbody td:before {
+    display: none;
+  }
+  .tim_table .tim-table-product-image {
+    display: inline;
+    float: left;
+    width: 82px;
+    margin-right: 20px;
+    position: relative;
+  }
+  /* Tabs
+	================================================== */
+  .tim-tabs .tim-tabs-links a {
+    padding: 9px 15px;
+    font-size: 16px;
+  }
+  .tim-dl {
+    width: 100%;
+  }
+  .tim-dl dt {
+    float: left;
+  }
+  .tim-dl dd {
+    margin: 0 0 12px 140px;
+    border: none;
+    padding-bottom: 0;
+  }
+  /* Cart items
+	================================================== */
+  .tim-cart-item {
+    margin-bottom: 20px;
+  }
+  .tim-cart-item .tim-cart-item-header {
+    text-align: left;
+    padding: 0;
+  }
+  .tim-cart-item .tim-cart-item-img {
+    display: inline-block;
+    float: left;
+    margin-right: 20px;
+    max-width: 100px;
+  }
+  .tim-cart-item .tim-cart-item-img img {
+    display: block;
+  }
+  .tim-cart-item .tim-cart-item-name {
+    line-height: 24px;
+    padding: 14px 16px 12px 16px;
+  }
+  .tim-cart-item .tim-cart-item-buttons {
+    position: absolute;
+    top: 17px;
+    left: -15px;
+  }
+  .tim-cart-item .tim-cart-item-buttons a {
+    display: block;
+    margin-bottom: 8px;
+  }
+  .tim-cart-item .tim-cart-item-content {
+    padding: 20px;
+  }
+  .tim-cart-item .tim-cart-item-button button {
+    margin: 10px 0 0 140px;
+  }
+  .tim-cart-item .tim-cart-item-left {
+    display: inline;
+    text-align: left;
+    grid-area: tim-cart-item-left;
+    position: relative;
+    padding: 0 0 0 30px;
+  }
+  .tim-cart-item .tim-cart-item-left:before,
+  .tim-cart-item .tim-cart-item-left:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+  }
+  .tim-cart-item .tim-cart-item-left:before {
+    border-width: 17px 0 22px 17px;
+    border-color: transparent transparent transparent #e0e0e0;
+    right: -17px;
+    top: calc(50% - 22px);
+  }
+  .tim-cart-item .tim-cart-item-left:after {
+    border-width: 15px 0 20px 15px;
+    border-color: transparent transparent transparent #fff;
+    right: -15px;
+    top: calc(50% - 20px);
+  }
+  .tim-cart-item .tim-cart-item-left .tim-cart-item-img {
+    float: left;
+    margin-right: 20px;
+  }
+  .tim-cart-item .tim-cart-item-left .tim-cart-item-name {
+    font-size: 18px;
+    padding: 20px 20px 0 20px;
+  }
+  .tim-cart-item .tim-cart-item-left .tim-cart-item-buttons {
+    position: absolute;
+    left: -15px;
+    top: 40px;
+  }
+  .tim-cart-item .tim-cart-item-left .tim-cart-item-buttons a {
+    display: block;
+  }
+  .tim-cart-item .tim-cart-item-right {
+    display: inline;
+    padding: 25px 30px;
+    grid-area: tim-cart-item-right;
+    /*.tim-cart-item-top {
+				text-align: left;
+				> div {
+					display: inline;
+				}
+			}
+
+			.tim-cart-item-date{
+				span{
+					display: inline;
+				}
+			}
+
+		    .tim-cart-item-bottom{
+				margin-top: 10px;
+				
+				> div{
+					float: left;
+
+					margin-right: 10px;
+				}
+			}*/
+  }
+  .tim-cart-item .tim-cart-item-right .tim-cart-item-detail {
+    float: left;
+    width: 80%;
+  }
+  .tim-cart-item .tim-cart-item-right .tim-cart-item-price {
+    margin-top: 0;
+    float: right;
+    text-align: right;
+  }
+  .tim-cart-item .tim-cart-item-right .tim-cart-item-button button {
+    margin: 10px 0 0 140px;
+  }
+  .tim-cart-totals {
+    text-align: right;
+  }
+  .tim_table_cart.tim_table thead tr th:first-child {
+    padding-left: 18px;
+  }
+  .tim_table_cart.tim_table thead tr th:last-child {
+    padding-right: 18px;
+  }
+  .tim_table_cart.tim_table tbody td {
+    padding: 14px 9px;
+  }
+  .tim_table_cart.tim_table tbody td:first-child {
+    padding-left: 18px;
+  }
+  .tim_table_cart.tim_table tbody td:last-child {
+    padding-right: 18px;
+  }
+  .tim_table_details.tim_table thead tr {
+    display: table-row;
+  }
+  .tim_table_details.tim_table .tim_table_label {
+    width: auto;
+    font-size: 12px;
+  }
+  /* Check rate form
+	================================================== */
+  .tim_check_rate_form p {
+    font-size: 12px;
+  }
+  .tim_check_rate_form p:last-child {
+    margin-right: 5px !important;
+  }
+  .tim_check_rate_form p input[type="submit"] {
+    margin: 5px 0 0 5px;
+  }
+  .tim_login_box {
+    width: 50%;
+    margin: 0 auto;
+  }
+  /* Item list search
+	================================================== */
+  .tim_list_search select {
+    display: inline;
+    width: auto;
+    margin-bottom: 0;
+  }
+  .tim_list_search input[type="submit"] {
+    width: auto;
+    margin: 0 10px 0 0;
+  }
+  .tim_list_search .tim_list_search_sort {
+    width: auto;
+  }
+  .tim_list_search_filter_form,
+  .tim_list_search_sort_form {
+    display: inline;
+    margin: 0 10px 0 5px;
+  }
+  .tim_list_search_view {
+    display: inline;
+    float: right;
+    padding-top: 3px;
+  }
+  .tim_list_search_view a {
+    text-decoration: none !important;
+  }
+  .tim-search-form {
+    padding: 20px;
+  }
+  .tim-search-form .tim-search-title {
+    font-size: 1.4em;
+  }
+  .tim-search-form .tim-search-form-group {
+    margin-bottom: 15px;
+  }
+  .tim-search-form .tim-search-form-group input[type='text'],
+  .tim-search-form .tim-search-form-group select {
+    margin-bottom: 0;
+  }
+  .tim-search-form .tim-search-form-group:last-child {
+    margin-bottom: 0;
+  }
+  .tim-search-form .tim-search-form-actions {
+    margin-top: 26px;
+  }
+  .tim_menu_options a {
+    margin-right: 6px;
+    background: #ddd;
+    color: #333;
+  }
+  .tim_menu_options a:hover {
+    background: #DA5903;
+    color: #fff;
+  }
+  .tim_menu_options a:hover.active {
+    background: #333;
+    color: #fff;
+  }
+  .tim_menu_options a.active {
+    background: #333;
+    color: #fff;
+    pointer-events: none;
+    cursor: default;
+  }
+}
+@media only screen and (max-width: 960px) {
+  /*.tim-cart-item {
+	    grid-template-columns: 45% 55%;
+	}*/
+}
+@media only screen and (max-width: 480px) {
+  /*.tim-cart-item {
+	    .tim-cart-item-right{
+			.tim-cart-item-pickup, .tim-cart-item-dropoff, .tim-cart-item-button button {
+		    	width: 100%;
+			}
+			.tim-cart-item-button button {
+			    margin-top: 10px;
+			}
+
+			.tim-cart-item-notify {
+		    	text-align: center;
+			}
+		}
+	}*/
+}
+/*---------------------------------
+	DESKTOP
+	This is the average viewing window. So Desktops, Laptops, and in general anyone not viewing on a mobile device. Here's where you can add resource intensive styles.
+-----------------------------------*/
+/*---------------------------------
+	LARGE VIEWING SIZE
+	This is for the larger monitors and possibly full screen viewers.
+-----------------------------------*/
+/*---------------------------------
+	RETINA (2x RESOLUTION DEVICES)
+	This applies to the retina iPhone (4s) and iPad (2,3) along with other displays with a 2x resolution.
+-----------------------------------*/
+/*---------------------------------
+	iPHONE 5 MEDIA QUERY
+	iPhone 5 or iPod Touch 5th generation styles (you can include your own file if you want)
+-----------------------------------*/

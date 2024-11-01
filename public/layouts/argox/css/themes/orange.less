@@ -1,0 +1,347 @@
+// ------------- Orange theme color ------------- //
+
+/* Content
+==================================================
+	Variables
+	Item list search
+	Item list
+		Item list image
+		Item list description
+		Item list price
+		Item list buttons
+	Item detail
+		Item detail overview
+		Item detail menu
+        Item options menu
+		Item detail content
+		Item detail video
+		Item detail map
+		Item detail booking form
+	Carrousel
+	Buttons	
+*/
+
+
+/* Variables
+================================================== */
+@base-bg-color: #f60;
+@base-font-color: #fff;
+
+// Item list
+@item-promo-bar-bg-color: #47A0FF;
+@item-promo-bar-font-color: #FEFEFE;
+
+@item-image-icons-bg-color: @base-bg-color;
+@item-image-icons-font-color: #333;
+@item-image-icons-hover-bg-color: #fff;
+
+@item-btn-bg-color: #DA5903 !important;
+@item-btn-font-color: #fff !important;
+//@item-btn-border-color: #D65803;
+@item-btn-hover-bg-color: #AF4A06;
+//@item-btn-hover-border-color: #AF4802;
+
+// Item detail
+@detail-overview-bg-color: #4A525D;
+@detail-overview-icons-bg-color: #f60;
+@detail-overview-font-color: #fff;
+
+@menu-a-bg-color: @base-bg-color;
+@menu-a-font-color: #fff;
+@menu-a-active-bg-color: #DA5903;
+@menu-a-hover-bg-color: #DA5903;
+@menu-a-hover-border-color: #DA5903;
+
+// Menu options
+@menu-options-bg-color: #ddd;
+@menu-options-bg-color-hover: #DA5903;
+@menu-options-bg-color-active: #333;
+@menu-options-font-color: #333;
+@menu-options-font-color-hover: #fff;
+@menu-options-font-color-active: #fff;
+
+// Buttons
+@btn-bg-color: @base-bg-color;
+@btn-font-color: #fff !important;
+@btn-border-color: #D65803;
+@btn-hover-bg-color: #DA5903;
+@btn-hover-border-color: #AF4802;
+
+@btn-success-bg-color: #478e47;
+@btn-success-font-color: #fff;
+@btn-success-border-color: #3e7c3e;
+@btn-success-hover-bg-color: #5cb85c;
+@btn-success-hover-border-color: #3e7c3e;
+
+@btn-info-bg-color: #f3f3f3;
+@btn-info-font-color: #555;
+@btn-info-border-color: #d9d9d9;
+@btn-info-hover-bg-color: #f9f9f9;
+@btn-info-hover-border-color: #d9d9d9;
+
+// Carrousel
+@btn-carrousel-bg-color: @base-bg-color;
+@btn-carrousel-hover-bg-color: #333;
+
+
+/* Item list search
+================================================== */
+.tim_list_search {
+    background: #ddd;
+
+ 	select {
+    	background: #fff;
+    }
+}
+
+
+/* Item list
+================================================== */
+// Item list image
+.tim_item{
+	background: #f5f5f5;
+}
+
+.tim_item_image_icons a {
+    background-color: @item-image-icons-bg-color;
+    color: @item-image-icons-font-color;
+
+	&:hover {
+	    background-color: @item-image-icons-hover-bg-color;
+	}
+}
+
+.tim_item_image_angle {
+    background-color: @item-promo-bar-bg-color;
+    color: @item-promo-bar-font-color;
+}
+
+// Item list price
+.tim_item_price{
+	background: #f60;
+	color: #fff;	
+}
+
+/*.tim_item_price_label {
+    color: #999;
+}*/
+
+.tim_item_price_image_button {
+    background-color: @base-bg-color;
+    color: #FEFEFE;
+}
+
+// Item list buttons
+.tim_item_btn,
+.tim_item_btn:visited {
+    background: @item-btn-bg-color;
+    color: @item-btn-font-color;
+    //border-bottom: 3px solid @item-btn-border-color;
+}
+
+.tim_item_btn:hover {
+    background: @item-btn-hover-bg-color;
+    color: @item-btn-font-color;
+    //border-bottom: 3px solid @item-btn-hover-border-color;
+}
+
+
+/* Item detail
+================================================== */
+// Item detail overview
+.tim_detail_overview {
+    background: @detail-overview-bg-color;
+    color: @detail-overview-font-color;
+
+	.tim_detail_line {
+    	border-bottom: 1px solid #3F454E;
+    	border-top: 1px solid #606875;
+    }
+
+	.tim_detail_line_label .fa {
+	    color: @detail-overview-icons-bg-color;
+	}
+}
+
+.tim_detail_line_label .fa {
+    color: @base-bg-color;
+}
+
+// Item detail menu
+.tim_detail_menu_wrap {
+    background: @base-bg-color;
+}
+
+.tim_detail_menu a {
+    background: @menu-a-bg-color;
+    color: @menu-a-font-color;
+
+	&.active {
+	    background: @menu-a-active-bg-color;
+	    color: @menu-a-font-color;
+	}
+
+	&:hover {
+	    background: @menu-a-hover-bg-color;
+	}
+
+	&:hover.active {
+	    color: @menu-a-font-color;
+	    background: @menu-a-hover-bg-color;
+	    //border-bottom: 3px solid @base-bg-color;
+	    //border-color: @menu-a-hover-border-color;
+	}
+}
+
+// Item menu options
+.tim_menu_options a {
+    background: @menu-options-bg-color;
+    color: @menu-options-font-color;
+
+    &:hover {
+        background: @menu-options-bg-color-hover;
+        color: @menu-options-font-color-hover;
+    }
+
+    &.active {
+        background: @menu-options-bg-color-active;
+        color: @menu-options-font-color-active;
+    }
+
+    &:hover.active {
+        background: @menu-options-bg-color-active;
+        color: @menu-options-font-color-active;
+    }
+}
+
+// Item detail content
+.tim_detail_content {
+    border-top-color: @base-bg-color;
+}
+
+// Item detail booking form
+.tim_detail_booking_form h4 {
+    background: @base-bg-color;
+    color: @base-font-color;
+}
+
+
+/* Carrousel
+================================================== */
+.tim_list_carrousel {
+	.swiper-button-prev, .swiper-button-next {
+    	background-color: @btn-carrousel-bg-color;
+    }
+
+	.swiper-button-prev:hover, .swiper-button-next:hover {
+	    background-color: @btn-carrousel-hover-bg-color;
+	}
+}
+
+/* Buttons
+================================================== */
+.tim-btn,
+.tim-btn:visited {
+    background: @btn-bg-color;
+    color: @btn-font-color;
+    border: none !important;
+    // border-bottom: 3px solid @btn-border-color !important;
+}
+
+.tim-btn:hover {
+    background: @btn-hover-bg-color;
+    color: @btn-font-color;
+    // border-bottom: 3px solid @btn-hover-border-color !important;
+}
+
+.tim-btn_success,
+.tim-btn_success:visited {
+    background: @btn-success-bg-color;
+    color: @btn-success-font-color;
+    // border-bottom: 3px solid @btn-success-border-color !important;
+}
+
+.tim-btn_success:hover {
+    background: @btn-success-hover-bg-color;
+    color: @btn-success-font-color;
+    // border-bottom: 3px solid @btn-success-hover-border-color !important;
+}
+
+.tim-btn_info,
+.tim-btn_info:visited {
+    background: @btn-info-bg-color;
+    color: @btn-info-font-color;
+    // border-bottom: 3px solid @btn-info-border-color !important;
+}
+
+.tim-btn_info:hover {
+    background: @btn-info-hover-bg-color;
+    color: @btn-info-font-color;
+    // border-bottom: 3px solid @btn-info-hover-border-color  !important;
+}
+
+
+
+.tim_alert{
+    &.tim_alert_default{
+        border-color: #ddd;
+        background: #fff;
+        color: #333;
+    }
+
+    &.tim_alert_info{
+        border-color: #bce8f1;
+        background: #d9edf7;
+        color: #31708f;
+    }
+
+    &.tim_alert_success{
+        border-color: #d6e9c6;
+        background: #dff0d8;
+        color: #3c763d;
+    }
+
+    &.tim_alert_warning{
+        border-color: #faebcc;
+        background: #fcf8e3;
+        color: #8a6d3b;
+    }
+
+    &.tim_alert_danger{
+        border-color: #ebccd1;
+        background: #f2dede;
+        color: #a94442;
+    }
+}
+
+/*.tim_label{
+    &.tim_label_default{
+        background: #999;
+        color: #fff;
+    }
+
+    &.tim_label_primary{
+        background: #428bca;
+        color: #fff;
+    }
+
+    &.tim_label_info{
+        background: #d9edf7;
+        color: #fff;
+    }
+
+    &.tim_label_success{
+        background: #94b86e;
+        color: #fff;
+    }
+
+    &.tim_label_warning{
+        background: #f0ad4e;
+        color: #fff;
+    }
+
+    &.tim_label_danger{
+        background: #e25856;
+        color: #fff;
+    }
+}*/

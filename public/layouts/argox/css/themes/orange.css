@@ -1,0 +1,219 @@
+/* Content
+==================================================
+	Variables
+	Item list search
+	Item list
+		Item list image
+		Item list description
+		Item list price
+		Item list buttons
+	Item detail
+		Item detail overview
+		Item detail menu
+        Item options menu
+		Item detail content
+		Item detail video
+		Item detail map
+		Item detail booking form
+	Carrousel
+	Buttons	
+*/
+/* Variables
+================================================== */
+/* Item list search
+================================================== */
+.tim_list_search {
+  background: #ddd;
+}
+.tim_list_search select {
+  background: #fff;
+}
+/* Item list
+================================================== */
+.tim_item {
+  background: #f5f5f5;
+}
+.tim_item_image_icons a {
+  background-color: #f60;
+  color: #333;
+}
+.tim_item_image_icons a:hover {
+  background-color: #fff;
+}
+.tim_item_image_angle {
+  background-color: #47A0FF;
+  color: #FEFEFE;
+}
+.tim_item_price {
+  background: #f60;
+  color: #fff;
+}
+/*.tim_item_price_label {
+    color: #999;
+}*/
+.tim_item_price_image_button {
+  background-color: #f60;
+  color: #FEFEFE;
+}
+.tim_item_btn,
+.tim_item_btn:visited {
+  background: #DA5903 !important;
+  color: #fff !important;
+}
+.tim_item_btn:hover {
+  background: #AF4A06;
+  color: #fff !important;
+}
+/* Item detail
+================================================== */
+.tim_detail_overview {
+  background: #4A525D;
+  color: #fff;
+}
+.tim_detail_overview .tim_detail_line {
+  border-bottom: 1px solid #3F454E;
+  border-top: 1px solid #606875;
+}
+.tim_detail_overview .tim_detail_line_label .fa {
+  color: #f60;
+}
+.tim_detail_line_label .fa {
+  color: #f60;
+}
+.tim_detail_menu_wrap {
+  background: #f60;
+}
+.tim_detail_menu a {
+  background: #f60;
+  color: #fff;
+}
+.tim_detail_menu a.active {
+  background: #DA5903;
+  color: #fff;
+}
+.tim_detail_menu a:hover {
+  background: #DA5903;
+}
+.tim_detail_menu a:hover.active {
+  color: #fff;
+  background: #DA5903;
+}
+.tim_menu_options a {
+  background: #ddd;
+  color: #333;
+}
+.tim_menu_options a:hover {
+  background: #DA5903;
+  color: #fff;
+}
+.tim_menu_options a.active {
+  background: #333;
+  color: #fff;
+}
+.tim_menu_options a:hover.active {
+  background: #333;
+  color: #fff;
+}
+.tim_detail_content {
+  border-top-color: #f60;
+}
+.tim_detail_booking_form h4 {
+  background: #f60;
+  color: #fff;
+}
+/* Carrousel
+================================================== */
+.tim_list_carrousel .swiper-button-prev,
+.tim_list_carrousel .swiper-button-next {
+  background-color: #f60;
+}
+.tim_list_carrousel .swiper-button-prev:hover,
+.tim_list_carrousel .swiper-button-next:hover {
+  background-color: #333;
+}
+/* Buttons
+================================================== */
+.tim-btn,
+.tim-btn:visited {
+  background: #f60;
+  color: #fff !important;
+  border: none !important;
+}
+.tim-btn:hover {
+  background: #DA5903;
+  color: #fff !important;
+}
+.tim-btn_success,
+.tim-btn_success:visited {
+  background: #478e47;
+  color: #fff;
+}
+.tim-btn_success:hover {
+  background: #5cb85c;
+  color: #fff;
+}
+.tim-btn_info,
+.tim-btn_info:visited {
+  background: #f3f3f3;
+  color: #555;
+}
+.tim-btn_info:hover {
+  background: #f9f9f9;
+  color: #555;
+}
+.tim_alert.tim_alert_default {
+  border-color: #ddd;
+  background: #fff;
+  color: #333;
+}
+.tim_alert.tim_alert_info {
+  border-color: #bce8f1;
+  background: #d9edf7;
+  color: #31708f;
+}
+.tim_alert.tim_alert_success {
+  border-color: #d6e9c6;
+  background: #dff0d8;
+  color: #3c763d;
+}
+.tim_alert.tim_alert_warning {
+  border-color: #faebcc;
+  background: #fcf8e3;
+  color: #8a6d3b;
+}
+.tim_alert.tim_alert_danger {
+  border-color: #ebccd1;
+  background: #f2dede;
+  color: #a94442;
+}
+/*.tim_label{
+    &.tim_label_default{
+        background: #999;
+        color: #fff;
+    }
+
+    &.tim_label_primary{
+        background: #428bca;
+        color: #fff;
+    }
+
+    &.tim_label_info{
+        background: #d9edf7;
+        color: #fff;
+    }
+
+    &.tim_label_success{
+        background: #94b86e;
+        color: #fff;
+    }
+
+    &.tim_label_warning{
+        background: #f0ad4e;
+        color: #fff;
+    }
+
+    &.tim_label_danger{
+        background: #e25856;
+        color: #fff;
+    }
+}*/
